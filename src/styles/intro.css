@@ -1,0 +1,68 @@
+.intro { position: fixed; inset: 0; z-index: 120; overflow: hidden; background: var(--g); color: #fff; display: grid; place-items: center; }
+.intro__bg { position: absolute; inset: 0; overflow: hidden; }
+.intro__pattern {
+  position: absolute; inset: -260px; opacity: 0.2;
+  background: url("../assets/brand/pattern-band.svg") 0 0 / 130px auto repeat;
+  animation: introDrift 28s linear infinite; will-change: transform;
+}
+@keyframes introDrift { to { transform: translate3d(-130px, -174px, 0); } }
+.intro__vignette { position: absolute; inset: 0; background: radial-gradient(ellipse at 50% 46%, rgba(19, 95, 68, 0.97) 8%, rgba(19, 95, 68, 0.86) 42%, rgba(19, 95, 68, 0.35) 100%); }
+.intro__stage {
+  position: relative; z-index: 2; display: grid; justify-items: center; gap: 0; width: 100%;
+  padding: calc(24px + env(safe-area-inset-top)) var(--pad) calc(24px + env(safe-area-inset-bottom));
+}
+.intro__logo { position: relative; display: grid; justify-items: center; gap: 12px; margin-block-end: clamp(20px, 4.5svh, 40px); }
+.intro__mark { height: clamp(112px, 24svh, 190px); aspect-ratio: 164 / 275; width: auto; }
+.intro__word { width: min(66vw, 290px); aspect-ratio: 338 / 102; height: auto; }
+.intro__chip {
+  --chip: clamp(44px, 12vw, 60px);
+  position: absolute; width: var(--chip); height: var(--chip);
+  border-radius: 14px 14px 14px 4px; background: var(--g2); box-shadow: 0 10px 24px -12px rgba(0, 0, 0, 0.55);
+  animation: chipFloat 5.5s ease-in-out infinite alternate;
+}
+.intro__chip svg { position: absolute; inset: 20%; width: 60%; height: 60%; }
+.intro__chip--bean { inset-block-start: 4%; inset-inline-start: calc(50% - min(44vw, 190px)); --ic-1: #fff; --ic-2: #135f44; --ic-3: #135f44; animation-delay: -1s; }
+.intro__chip--cup { inset-block-start: 0; inset-inline-end: calc(50% - min(44vw, 190px)); background: #fff; border-radius: 50%; animation-delay: -3s; }
+.intro__chip--c { inset-block-end: 30%; inset-inline-start: calc(50% - min(48vw, 214px)); background: var(--g-deep); --ic-1: #fff; animation-delay: -2s; }
+.intro__chip--cactus { inset-block-end: 26%; inset-inline-end: calc(50% - min(48vw, 214px)); background: #fff; border-radius: 14px 4px 14px 14px; animation-delay: -4s; }
+@keyframes chipFloat { from { transform: translateY(0) rotate(-2deg); } to { transform: translateY(-8px) rotate(2deg); } }
+.intro__choose { font-size: 0.95rem; font-weight: 500; letter-spacing: 0.02em; opacity: 0.9; margin-block-end: 16px; text-align: center; }
+.intro__choose span { display: inline-block; margin-inline: 8px; }
+.intro__langs { display: grid; gap: 12px; width: 100%; max-width: 340px; justify-items: stretch; }
+.lang-btn {
+  position: relative; overflow: hidden; isolation: isolate; min-height: 64px; padding-inline: 22px;
+  display: flex; align-items: center; justify-content: space-between; gap: 12px; text-align: start;
+  border-radius: 18px; border: 1.5px solid rgba(255, 255, 255, 0.34); background: rgba(255, 255, 255, 0.07); color: #fff;
+  font-size: 1.4rem; font-weight: 700; transition: color 0.3s, transform 0.18s var(--ease), border-color 0.3s;
+}
+.lang-btn::before { content: ""; position: absolute; inset: 0; z-index: -1; background: #fff; transform: scaleX(0); transform-origin: 0 50%; transition: transform 0.4s var(--ease); }
+.lang-btn[dir="rtl"]::before { transform-origin: 100% 50%; }
+.lang-btn small { font-family: var(--f-en); font-size: 0.72rem; font-weight: 500; letter-spacing: 0.16em; opacity: 0.7; }
+.lang-btn:active { transform: scale(0.965); }
+.lang-btn:active::before { transform: scaleX(1); }
+.lang-btn:active { color: var(--g); }
+@media (hover: hover) { .lang-btn:hover { border-color: #fff; } .lang-btn:hover::before { transform: scaleX(1); } .lang-btn:hover { color: var(--g); } }
+.intro[data-ready="false"] .intro__langs { pointer-events: none; }
+.intro__skip {
+  position: absolute; z-index: 5; inset-block-end: calc(18px + env(safe-area-inset-bottom)); inset-inline-end: max(18px, env(safe-area-inset-right));
+  padding: 9px 16px; border-radius: 999px; font-size: 0.82rem; font-weight: 700; letter-spacing: 0.04em;
+  color: rgba(255, 255, 255, 0.85); border: 1px solid rgba(255, 255, 255, 0.28); transition: background 0.2s;
+}
+.intro__skip:hover { background: rgba(255, 255, 255, 0.12); }
+.intro__circle { position: absolute; z-index: 3; border-radius: 50%; background: var(--mint); pointer-events: none; left: 50%; top: 50%; width: 0; height: 0; }
+.intro__seal { position: absolute; z-index: 4; width: 76px; pointer-events: none; opacity: 0; left: 50%; top: 50%; --ic-1: #135f44; }
+@media (min-width: 720px) {
+  .intro__langs { grid-template-columns: repeat(3, 1fr); max-width: 760px; }
+  .intro__word { width: 320px; }
+  .intro__chip--bean { inset-inline-start: calc(50% - 300px); } .intro__chip--cup { inset-inline-end: calc(50% - 300px); }
+  .intro__chip--c { inset-inline-start: calc(50% - 360px); } .intro__chip--cactus { inset-inline-end: calc(50% - 360px); }
+}
+@media (max-height: 560px) { .intro__mark { height: 84px; } .intro__logo { margin-block-end: 12px; } .intro__chip { display: none; } }
+
+/* Returning visitors: a short dark veil that closes like an iris onto the hero */
+.veil { position: fixed; inset: 0; z-index: 120; background: var(--g); display: grid; place-items: center; }
+.veil img { width: 74px; height: auto; aspect-ratio: 164 / 275; }
+/* Language switch curtain */
+.curtain { position: fixed; inset: 0; z-index: 130; background: var(--g); pointer-events: none; display: grid; place-items: center; will-change: transform; visibility: hidden; }
+.curtain::before { content: ""; position: absolute; inset: 0; opacity: 0.16; background: url("../assets/brand/pattern-band.svg") 0 0 / 110px auto; }
+.curtain svg { position: relative; width: 54px; --ic-1: #fff; }

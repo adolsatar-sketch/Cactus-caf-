@@ -1,0 +1,2071 @@
+{
+ "currency": "IQD",
+ "categories": [
+  {
+   "id": "hot-drinks",
+   "order": 1,
+   "name": {
+    "ar": "مشروبات ساخنة",
+    "ku": "خواردنەوە گەرمەکان",
+    "en": "Hot Drinks"
+   },
+   "fx": "steam",
+   "glyph": "cup"
+  },
+  {
+   "id": "hot-coffee",
+   "order": 2,
+   "name": {
+    "ar": "قهوة ساخنة",
+    "ku": "قاوەی گەرم",
+    "en": "Hot Coffee"
+   },
+   "fx": "swirl",
+   "glyph": "bean"
+  },
+  {
+   "id": "milkshakes",
+   "order": 3,
+   "name": {
+    "ar": "ميلك شيك",
+    "ku": "میلک شەیک",
+    "en": "Milkshakes"
+   },
+   "fx": "creamy",
+   "glyph": "c"
+  },
+  {
+   "id": "fresh-juices",
+   "order": 4,
+   "name": {
+    "ar": "عصائر طازجة",
+    "ku": "شەربەتی تازە",
+    "en": "Fresh Juices"
+   },
+   "fx": "fresh",
+   "glyph": "cactus"
+  },
+  {
+   "id": "mojitos",
+   "order": 5,
+   "name": {
+    "ar": "موهيتو",
+    "ku": "مۆهیتۆ",
+    "en": "Mojitos"
+   },
+   "fx": "bubbles",
+   "glyph": "bean",
+   "note": {
+    "ar": "أضف مشروب الطاقة إلى الموهيتو مقابل 1,000 د.ع فقط.",
+    "ku": "خواردنەوەی وزە بخەرە سەر مۆهیتۆکەت، تەنیا بە 1,000 د.ع.",
+    "en": "Add an energy drink to your mojito for only 1,000 IQD."
+   }
+  },
+  {
+   "id": "breakfast",
+   "order": 6,
+   "name": {
+    "ar": "الفطور",
+    "ku": "نانی بەیانی",
+    "en": "Breakfast"
+   },
+   "fx": "morning",
+   "glyph": "cup"
+  },
+  {
+   "id": "pizza",
+   "order": 7,
+   "name": {
+    "ar": "بيتزا",
+    "ku": "پیتزا",
+    "en": "Pizza"
+   },
+   "fx": "pizza",
+   "glyph": "c"
+  },
+  {
+   "id": "salads",
+   "order": 8,
+   "name": {
+    "ar": "سلطات",
+    "ku": "زەڵاتە",
+    "en": "Salads"
+   },
+   "fx": "leaf",
+   "glyph": "cactus"
+  },
+  {
+   "id": "soups",
+   "order": 9,
+   "name": {
+    "ar": "شوربات",
+    "ku": "شۆربا",
+    "en": "Soups"
+   },
+   "fx": "ripple",
+   "glyph": "cup"
+  },
+  {
+   "id": "eastern-cuisine",
+   "order": 10,
+   "name": {
+    "ar": "المطبخ الشرقي",
+    "ku": "خواردنی ڕۆژهەڵاتی",
+    "en": "Eastern Cuisine"
+   },
+   "fx": "ornament",
+   "glyph": "bean"
+  },
+  {
+   "id": "western-cuisine",
+   "order": 11,
+   "name": {
+    "ar": "المطبخ الغربي",
+    "ku": "خواردنی ڕۆژاوایی",
+    "en": "Western Cuisine"
+   },
+   "fx": "clean",
+   "glyph": "c"
+  },
+  {
+   "id": "pastries-cakes",
+   "order": 12,
+   "name": {
+    "ar": "الحلويات والكيك",
+    "ku": "کێک و شیرینی",
+    "en": "Pastries & Cakes"
+   },
+   "fx": "layers",
+   "glyph": "cactus"
+  },
+  {
+   "id": "soft-drinks-water",
+   "order": 13,
+   "name": {
+    "ar": "المشروبات الغازية والماء",
+    "ku": "خواردنەوە سارد و ئاو",
+    "en": "Soft Drinks & Water"
+   },
+   "fx": "fizz",
+   "glyph": "cup"
+  },
+  {
+   "id": "shisha",
+   "order": 14,
+   "name": {
+    "ar": "أرجيلة",
+    "ku": "نێرگەلە",
+    "en": "Shisha"
+   },
+   "fx": "smoke",
+   "glyph": "bean"
+  }
+ ],
+ "items": [
+  {
+   "id": "cactus-drink",
+   "category": "hot-drinks",
+   "name": {
+    "ar": "مشروب كاكتوس",
+    "ku": "خواردنەوەی کاکتوس",
+    "en": "Cactus Drink"
+   },
+   "price": 5000,
+   "description": null,
+   "image": null,
+   "featured": true,
+   "available": true,
+   "allergens": []
+  },
+  {
+   "id": "milk",
+   "category": "hot-drinks",
+   "name": {
+    "ar": "حليب",
+    "ku": "شیر",
+    "en": "Milk"
+   },
+   "price": 2500,
+   "description": null,
+   "image": null,
+   "featured": false,
+   "available": true,
+   "allergens": []
+  },
+  {
+   "id": "milk-honey",
+   "category": "hot-drinks",
+   "name": {
+    "ar": "حليب وعسل",
+    "ku": "شیر و هەنگوین",
+    "en": "Milk & Honey"
+   },
+   "price": 3500,
+   "description": null,
+   "image": null,
+   "featured": false,
+   "available": true,
+   "allergens": []
+  },
+  {
+   "id": "tea",
+   "category": "hot-drinks",
+   "name": {
+    "ar": "شاي",
+    "ku": "چا",
+    "en": "Tea"
+   },
+   "price": 1000,
+   "description": null,
+   "image": null,
+   "featured": false,
+   "available": true,
+   "allergens": []
+  },
+  {
+   "id": "ginger-honey-tea",
+   "category": "hot-drinks",
+   "name": {
+    "ar": "شاي بالزنجبيل والعسل",
+    "ku": "چای زەنجەفیل و هەنگوین",
+    "en": "Ginger & Honey Tea"
+   },
+   "price": 2000,
+   "description": null,
+   "image": null,
+   "featured": false,
+   "available": true,
+   "allergens": []
+  },
+  {
+   "id": "green-tea",
+   "category": "hot-drinks",
+   "name": {
+    "ar": "شاي أخضر",
+    "ku": "چای سەوز",
+    "en": "Green Tea"
+   },
+   "price": 2000,
+   "description": null,
+   "image": null,
+   "featured": false,
+   "available": true,
+   "allergens": []
+  },
+  {
+   "id": "lemon-tea",
+   "category": "hot-drinks",
+   "name": {
+    "ar": "شاي بالليمون",
+    "ku": "چای لیمۆ",
+    "en": "Lemon Tea"
+   },
+   "price": 2000,
+   "description": null,
+   "image": null,
+   "featured": false,
+   "available": true,
+   "allergens": []
+  },
+  {
+   "id": "milk-tea",
+   "category": "hot-drinks",
+   "name": {
+    "ar": "شاي بالحليب",
+    "ku": "چای شیر",
+    "en": "Milk Tea"
+   },
+   "price": 2000,
+   "description": null,
+   "image": null,
+   "featured": false,
+   "available": true,
+   "allergens": []
+  },
+  {
+   "id": "karak-tea",
+   "category": "hot-drinks",
+   "name": {
+    "ar": "شاي كرك",
+    "ku": "چای کەڕەک",
+    "en": "Karak Tea"
+   },
+   "price": 2000,
+   "description": null,
+   "image": null,
+   "featured": false,
+   "available": true,
+   "allergens": []
+  },
+  {
+   "id": "pomegranate-tea",
+   "category": "hot-drinks",
+   "name": {
+    "ar": "شاي بالرمان",
+    "ku": "چای هەنار",
+    "en": "Pomegranate Tea"
+   },
+   "price": 2000,
+   "description": null,
+   "image": null,
+   "featured": false,
+   "available": true,
+   "allergens": []
+  },
+  {
+   "id": "cactus-milkshake",
+   "category": "milkshakes",
+   "name": {
+    "ar": "ميلك شيك كاكتوس",
+    "ku": "میلک شەیکی کاکتوس",
+    "en": "Cactus Milkshake"
+   },
+   "price": 7000,
+   "description": null,
+   "image": null,
+   "featured": true,
+   "available": true,
+   "allergens": []
+  },
+  {
+   "id": "chocolate-milkshake",
+   "category": "milkshakes",
+   "name": {
+    "ar": "ميلك شيك شوكولاتة",
+    "ku": "میلک شەیکی شکۆلاتە",
+    "en": "Chocolate Milkshake"
+   },
+   "price": 6000,
+   "description": null,
+   "image": null,
+   "featured": false,
+   "available": true,
+   "allergens": []
+  },
+  {
+   "id": "oreo-milkshake",
+   "category": "milkshakes",
+   "name": {
+    "ar": "ميلك شيك أوريو",
+    "ku": "میلک شەیکی ئۆریۆ",
+    "en": "Oreo Milkshake"
+   },
+   "price": 6000,
+   "description": null,
+   "image": null,
+   "featured": false,
+   "available": true,
+   "allergens": []
+  },
+  {
+   "id": "strawberry-milkshake",
+   "category": "milkshakes",
+   "name": {
+    "ar": "ميلك شيك فراولة",
+    "ku": "میلک شەیکی فڕاولە",
+    "en": "Strawberry Milkshake"
+   },
+   "price": 6000,
+   "description": null,
+   "image": null,
+   "featured": false,
+   "available": true,
+   "allergens": []
+  },
+  {
+   "id": "vanilla-milkshake",
+   "category": "milkshakes",
+   "name": {
+    "ar": "ميلك شيك فانيلا",
+    "ku": "میلک شەیکی ڤانیلا",
+    "en": "Vanilla Milkshake"
+   },
+   "price": 6000,
+   "description": null,
+   "image": null,
+   "featured": false,
+   "available": true,
+   "allergens": []
+  },
+  {
+   "id": "espresso",
+   "category": "hot-coffee",
+   "name": {
+    "ar": "إسبريسو",
+    "ku": "ئێسپرێسۆ",
+    "en": "Espresso"
+   },
+   "price": 3000,
+   "description": null,
+   "image": null,
+   "featured": false,
+   "available": true,
+   "allergens": []
+  },
+  {
+   "id": "double-espresso",
+   "category": "hot-coffee",
+   "name": {
+    "ar": "إسبريسو دبل",
+    "ku": "ئێسپرێسۆی دووانە",
+    "en": "Double Espresso"
+   },
+   "price": 5000,
+   "description": null,
+   "image": null,
+   "featured": false,
+   "available": true,
+   "allergens": []
+  },
+  {
+   "id": "americano",
+   "category": "hot-coffee",
+   "name": {
+    "ar": "أمريكانو",
+    "ku": "ئەمریکانۆ",
+    "en": "Americano"
+   },
+   "price": 4500,
+   "description": null,
+   "image": null,
+   "featured": false,
+   "available": true,
+   "allergens": []
+  },
+  {
+   "id": "arabic-coffee",
+   "category": "hot-coffee",
+   "name": {
+    "ar": "قهوة عربية",
+    "ku": "قاوەی عەرەبی",
+    "en": "Arabic Coffee"
+   },
+   "price": 3000,
+   "description": null,
+   "image": null,
+   "featured": false,
+   "available": true,
+   "allergens": []
+  },
+  {
+   "id": "turkish-coffee",
+   "category": "hot-coffee",
+   "name": {
+    "ar": "قهوة تركية",
+    "ku": "قاوەی تورکی",
+    "en": "Turkish Coffee"
+   },
+   "price": 3000,
+   "description": null,
+   "image": null,
+   "featured": false,
+   "available": true,
+   "allergens": []
+  },
+  {
+   "id": "tede-coffee",
+   "category": "hot-coffee",
+   "name": {
+    "ar": "قهوة تيدي",
+    "ku": "قاوەی تێدی",
+    "en": "Tede Coffee"
+   },
+   "price": 5500,
+   "description": null,
+   "image": null,
+   "featured": false,
+   "available": true,
+   "allergens": [],
+   "review": "REVIEW: 'TEDE' kept exactly as in the source (تيدي) — confirm spelling (Tedy / Teddy?)."
+  },
+  {
+   "id": "qazwan-coffee",
+   "category": "hot-coffee",
+   "name": {
+    "ar": "قهوة قزوان",
+    "ku": "قاوەی قەزوان",
+    "en": "Qazwan Coffee"
+   },
+   "price": 3500,
+   "description": null,
+   "image": null,
+   "featured": false,
+   "available": true,
+   "allergens": []
+  },
+  {
+   "id": "nescafe",
+   "category": "hot-coffee",
+   "name": {
+    "ar": "نسكافيه",
+    "ku": "نێسکافێ",
+    "en": "Nescafé"
+   },
+   "price": 5000,
+   "description": null,
+   "image": null,
+   "featured": false,
+   "available": true,
+   "allergens": []
+  },
+  {
+   "id": "latte",
+   "category": "hot-coffee",
+   "name": {
+    "ar": "لاتيه",
+    "ku": "لاتێ",
+    "en": "Latte"
+   },
+   "price": 5000,
+   "description": null,
+   "image": null,
+   "featured": false,
+   "available": true,
+   "allergens": []
+  },
+  {
+   "id": "mocha",
+   "category": "hot-coffee",
+   "name": {
+    "ar": "موكا",
+    "ku": "مۆکا",
+    "en": "Mocha"
+   },
+   "price": 5000,
+   "description": null,
+   "image": null,
+   "featured": false,
+   "available": true,
+   "allergens": []
+  },
+  {
+   "id": "cappuccino",
+   "category": "hot-coffee",
+   "name": {
+    "ar": "كابتشينو",
+    "ku": "کاپوچینۆ",
+    "en": "Cappuccino"
+   },
+   "price": 5000,
+   "description": null,
+   "image": null,
+   "featured": false,
+   "available": true,
+   "allergens": []
+  },
+  {
+   "id": "espresso-con-panna",
+   "category": "hot-coffee",
+   "name": {
+    "ar": "إسبريسو كون بانا",
+    "ku": "ئێسپرێسۆ کۆن پانا",
+    "en": "Espresso Con Panna"
+   },
+   "price": 4000,
+   "description": null,
+   "image": null,
+   "featured": false,
+   "available": true,
+   "allergens": []
+  },
+  {
+   "id": "espresso-macchiato",
+   "category": "hot-coffee",
+   "name": {
+    "ar": "إسبريسو ماكياتو",
+    "ku": "ئێسپرێسۆ ماکیاتۆ",
+    "en": "Espresso Macchiato"
+   },
+   "price": 4000,
+   "description": null,
+   "image": null,
+   "featured": false,
+   "available": true,
+   "allergens": []
+  },
+  {
+   "id": "matcha-latte",
+   "category": "hot-coffee",
+   "name": {
+    "ar": "ماتشا لاتيه",
+    "ku": "ماتچا لاتێ",
+    "en": "Matcha Latte"
+   },
+   "price": 5000,
+   "description": null,
+   "image": null,
+   "featured": false,
+   "available": true,
+   "allergens": []
+  },
+  {
+   "id": "apple-juice",
+   "category": "fresh-juices",
+   "name": {
+    "ar": "عصير تفاح",
+    "ku": "شەربەتی سێو",
+    "en": "Apple Juice"
+   },
+   "price": 4000,
+   "description": null,
+   "image": null,
+   "featured": false,
+   "available": true,
+   "allergens": []
+  },
+  {
+   "id": "blackberry-juice",
+   "category": "fresh-juices",
+   "name": {
+    "ar": "بلاك بيري",
+    "ku": "شەربەتی بلاک بێری",
+    "en": "Blackberry"
+   },
+   "price": 4000,
+   "description": null,
+   "image": null,
+   "featured": false,
+   "available": true,
+   "allergens": []
+  },
+  {
+   "id": "banana-juice",
+   "category": "fresh-juices",
+   "name": {
+    "ar": "عصير موز",
+    "ku": "شەربەتی مۆز",
+    "en": "Banana Juice"
+   },
+   "price": 4000,
+   "description": null,
+   "image": null,
+   "featured": false,
+   "available": true,
+   "allergens": []
+  },
+  {
+   "id": "lemon-juice",
+   "category": "fresh-juices",
+   "name": {
+    "ar": "عصير ليمون",
+    "ku": "شەربەتی لیمۆ",
+    "en": "Lemon Juice"
+   },
+   "price": 4000,
+   "description": null,
+   "image": null,
+   "featured": false,
+   "available": true,
+   "allergens": []
+  },
+  {
+   "id": "lemon-mint-juice",
+   "category": "fresh-juices",
+   "name": {
+    "ar": "عصير ليمون ونعناع",
+    "ku": "شەربەتی لیمۆ و پونگ",
+    "en": "Lemon & Mint Juice"
+   },
+   "price": 4000,
+   "description": null,
+   "image": null,
+   "featured": false,
+   "available": true,
+   "allergens": []
+  },
+  {
+   "id": "orange-juice",
+   "category": "fresh-juices",
+   "name": {
+    "ar": "عصير برتقال",
+    "ku": "شەربەتی پرتەقاڵ",
+    "en": "Orange Juice"
+   },
+   "price": 4000,
+   "description": null,
+   "image": null,
+   "featured": false,
+   "available": true,
+   "allergens": []
+  },
+  {
+   "id": "pineapple-juice",
+   "category": "fresh-juices",
+   "name": {
+    "ar": "عصير أناناس",
+    "ku": "شەربەتی ئاناناس",
+    "en": "Pineapple Juice"
+   },
+   "price": 4000,
+   "description": null,
+   "image": null,
+   "featured": false,
+   "available": true,
+   "allergens": []
+  },
+  {
+   "id": "carrot-juice",
+   "category": "fresh-juices",
+   "name": {
+    "ar": "عصير جزر",
+    "ku": "شەربەتی گەزەر",
+    "en": "Carrot Juice"
+   },
+   "price": 4000,
+   "description": null,
+   "image": null,
+   "featured": false,
+   "available": true,
+   "allergens": []
+  },
+  {
+   "id": "cocktail-juice",
+   "category": "fresh-juices",
+   "name": {
+    "ar": "عصير كوكتيل",
+    "ku": "شەربەتی کۆکتێل",
+    "en": "Cocktail Juice"
+   },
+   "price": 4000,
+   "description": null,
+   "image": null,
+   "featured": false,
+   "available": true,
+   "allergens": []
+  },
+  {
+   "id": "pomegranate-juice",
+   "category": "fresh-juices",
+   "name": {
+    "ar": "عصير رمان",
+    "ku": "شەربەتی هەنار",
+    "en": "Pomegranate Juice"
+   },
+   "price": 4000,
+   "description": null,
+   "image": null,
+   "featured": false,
+   "available": true,
+   "allergens": []
+  },
+  {
+   "id": "healthy-juice",
+   "category": "fresh-juices",
+   "name": {
+    "ar": "عصير صحي",
+    "ku": "شەربەتی تەندروستی",
+    "en": "Healthy Juice"
+   },
+   "price": 5500,
+   "description": null,
+   "image": null,
+   "featured": false,
+   "available": true,
+   "allergens": []
+  },
+  {
+   "id": "blueberry-mojito",
+   "category": "mojitos",
+   "name": {
+    "ar": "بلوبيري",
+    "ku": "بلووبێری",
+    "en": "Blueberry"
+   },
+   "price": 5000,
+   "description": null,
+   "image": null,
+   "featured": false,
+   "available": true,
+   "allergens": []
+  },
+  {
+   "id": "classic-mojito",
+   "category": "mojitos",
+   "name": {
+    "ar": "كلاسيك",
+    "ku": "کلاسیک",
+    "en": "Classic"
+   },
+   "price": 5000,
+   "description": null,
+   "image": null,
+   "featured": false,
+   "available": true,
+   "allergens": []
+  },
+  {
+   "id": "coconut-mojito",
+   "category": "mojitos",
+   "name": {
+    "ar": "جوز الهند",
+    "ku": "نارگیل",
+    "en": "Coconut"
+   },
+   "price": 5000,
+   "description": null,
+   "image": null,
+   "featured": false,
+   "available": true,
+   "allergens": []
+  },
+  {
+   "id": "passion-fruit-mojito",
+   "category": "mojitos",
+   "name": {
+    "ar": "باشن فروت",
+    "ku": "پاشن فروت",
+    "en": "Passion Fruit"
+   },
+   "price": 5000,
+   "description": null,
+   "image": null,
+   "featured": false,
+   "available": true,
+   "allergens": []
+  },
+  {
+   "id": "strawberry-mojito",
+   "category": "mojitos",
+   "name": {
+    "ar": "فراولة",
+    "ku": "فڕاولە",
+    "en": "Strawberry"
+   },
+   "price": 5000,
+   "description": null,
+   "image": null,
+   "featured": false,
+   "available": true,
+   "allergens": []
+  },
+  {
+   "id": "eggs-potato",
+   "category": "breakfast",
+   "name": {
+    "ar": "بيض وبطاطا",
+    "ku": "هێلکە و پەتاتە",
+    "en": "Eggs & Potato"
+   },
+   "price": 3500,
+   "description": null,
+   "image": null,
+   "featured": false,
+   "available": true,
+   "allergens": []
+  },
+  {
+   "id": "eggs-tomato",
+   "category": "breakfast",
+   "name": {
+    "ar": "بيض وطماطم",
+    "ku": "هێلکە و تەماتە",
+    "en": "Eggs & Tomato"
+   },
+   "price": 3500,
+   "description": null,
+   "image": null,
+   "featured": false,
+   "available": true,
+   "allergens": []
+  },
+  {
+   "id": "sunny-side-up-eggs",
+   "category": "breakfast",
+   "name": {
+    "ar": "بيض عين",
+    "ku": "هێلکەی چاو",
+    "en": "Sunny-Side-Up Eggs"
+   },
+   "price": 3000,
+   "description": null,
+   "image": null,
+   "featured": false,
+   "available": true,
+   "allergens": [],
+   "review": "REVIEW: source English 'EGGS CHAW' is unclear; name follows the Arabic 'بيض عين' (sunny-side-up eggs)."
+  },
+  {
+   "id": "eggs-kas",
+   "category": "breakfast",
+   "name": {
+    "ar": "بيض وكص",
+    "ku": "هێلکە و کص",
+    "en": "Eggs & Kas"
+   },
+   "price": 6000,
+   "description": null,
+   "image": null,
+   "featured": false,
+   "available": true,
+   "allergens": [],
+   "review": "REVIEW: 'كص / KAS' is unclear in the source — transliterated as written, not guessed."
+  },
+  {
+   "id": "kofta-ba-gosht",
+   "category": "breakfast",
+   "name": {
+    "ar": "كبة سراي",
+    "ku": "کوبەی سەرا",
+    "en": "Kofta Ba Gosht"
+   },
+   "price": 5000,
+   "description": null,
+   "image": null,
+   "featured": false,
+   "available": true,
+   "allergens": [],
+   "review": "REVIEW: source English (Kofta Ba Gosht) and Arabic (كبة سراي) names differ — both kept as written."
+  },
+  {
+   "id": "makhlama-beef",
+   "category": "breakfast",
+   "name": {
+    "ar": "مخلمة باللحم",
+    "ku": "مەخلەمە بە گۆشت",
+    "en": "Makhlama with Beef"
+   },
+   "price": 5000,
+   "description": null,
+   "image": null,
+   "featured": false,
+   "available": true,
+   "allergens": []
+  },
+  {
+   "id": "baqla-egg",
+   "category": "breakfast",
+   "name": {
+    "ar": "باقلاء وبيض",
+    "ku": "باقڵە و هێلکە",
+    "en": "Broad Beans & Egg"
+   },
+   "price": 4000,
+   "description": null,
+   "image": null,
+   "featured": false,
+   "available": true,
+   "allergens": []
+  },
+  {
+   "id": "margherita-pizza",
+   "category": "pizza",
+   "name": {
+    "ar": "بيتزا مارغريتا",
+    "ku": "پیتزای مارگەریتا",
+    "en": "Margherita Pizza"
+   },
+   "price": 6500,
+   "description": null,
+   "image": null,
+   "featured": false,
+   "available": true,
+   "allergens": []
+  },
+  {
+   "id": "chicken-pizza",
+   "category": "pizza",
+   "name": {
+    "ar": "بيتزا دجاج",
+    "ku": "پیتزای مریشک",
+    "en": "Chicken Pizza"
+   },
+   "price": 8000,
+   "description": null,
+   "image": null,
+   "featured": false,
+   "available": true,
+   "allergens": []
+  },
+  {
+   "id": "vegetable-pizza",
+   "category": "pizza",
+   "name": {
+    "ar": "بيتزا خضار",
+    "ku": "پیتزای سەوزە",
+    "en": "Vegetable Pizza"
+   },
+   "price": 7000,
+   "description": null,
+   "image": null,
+   "featured": false,
+   "available": true,
+   "allergens": []
+  },
+  {
+   "id": "salami-pizza",
+   "category": "pizza",
+   "name": {
+    "ar": "بيتزا سلامي",
+    "ku": "پیتزای سالامی",
+    "en": "Salami Pizza"
+   },
+   "price": 7000,
+   "description": null,
+   "image": null,
+   "featured": false,
+   "available": true,
+   "allergens": []
+  },
+  {
+   "id": "salmon-pizza",
+   "category": "pizza",
+   "name": {
+    "ar": "بيتزا سلمون",
+    "ku": "پیتزای سالمۆن",
+    "en": "Salmon Pizza"
+   },
+   "price": 8000,
+   "description": null,
+   "image": null,
+   "featured": false,
+   "available": true,
+   "allergens": []
+  },
+  {
+   "id": "beef-pizza",
+   "category": "pizza",
+   "name": {
+    "ar": "بيتزا لحم",
+    "ku": "پیتزای گۆشت",
+    "en": "Beef Pizza"
+   },
+   "price": 9000,
+   "description": null,
+   "image": null,
+   "featured": false,
+   "available": true,
+   "allergens": []
+  },
+  {
+   "id": "mix-pizza",
+   "category": "pizza",
+   "name": {
+    "ar": "بيتزا مكس",
+    "ku": "پیتزای میکس",
+    "en": "Mix Pizza"
+   },
+   "price": 10000,
+   "description": null,
+   "image": null,
+   "featured": false,
+   "available": true,
+   "allergens": []
+  },
+  {
+   "id": "four-seasons-pizza",
+   "category": "pizza",
+   "name": {
+    "ar": "بيتزا الفصول الأربعة",
+    "ku": "پیتزای چوار وەرز",
+    "en": "Four Seasons Pizza"
+   },
+   "price": 10000,
+   "description": null,
+   "image": null,
+   "featured": false,
+   "available": true,
+   "allergens": []
+  },
+  {
+   "id": "tabbouleh",
+   "category": "salads",
+   "name": {
+    "ar": "سلطة تبولة",
+    "ku": "زەڵاتەی تەبووڵە",
+    "en": "Tabbouleh"
+   },
+   "price": 4000,
+   "description": null,
+   "image": null,
+   "featured": false,
+   "available": true,
+   "allergens": []
+  },
+  {
+   "id": "fattoush",
+   "category": "salads",
+   "name": {
+    "ar": "سلطة فتوش",
+    "ku": "زەڵاتەی فەتووش",
+    "en": "Fattoush"
+   },
+   "price": 4000,
+   "description": null,
+   "image": null,
+   "featured": false,
+   "available": true,
+   "allergens": []
+  },
+  {
+   "id": "caesar-salad",
+   "category": "salads",
+   "name": {
+    "ar": "سلطة سيزار",
+    "ku": "زەڵاتەی سیزەر",
+    "en": "Caesar Salad"
+   },
+   "price": 6000,
+   "description": null,
+   "image": null,
+   "featured": false,
+   "available": true,
+   "allergens": []
+  },
+  {
+   "id": "avocado-salad",
+   "category": "salads",
+   "name": {
+    "ar": "سلطة أفوكادو",
+    "ku": "زەڵاتەی ئەڤۆکادۆ",
+    "en": "Avocado Salad"
+   },
+   "price": 6000,
+   "description": null,
+   "image": null,
+   "featured": false,
+   "available": true,
+   "allergens": []
+  },
+  {
+   "id": "arugula-salad",
+   "category": "salads",
+   "name": {
+    "ar": "سلطة جرجير",
+    "ku": "زەڵاتەی جەرجیر",
+    "en": "Arugula Salad"
+   },
+   "price": 6000,
+   "description": null,
+   "image": null,
+   "featured": false,
+   "available": true,
+   "allergens": []
+  },
+  {
+   "id": "jajik",
+   "category": "salads",
+   "name": {
+    "ar": "جاجيك",
+    "ku": "جاجیک",
+    "en": "Jajik"
+   },
+   "price": 4000,
+   "description": null,
+   "image": null,
+   "featured": false,
+   "available": true,
+   "allergens": []
+  },
+  {
+   "id": "hummus-tahini",
+   "category": "salads",
+   "name": {
+    "ar": "حمص بطحينة",
+    "ku": "حومس بە تەحینە",
+    "en": "Hummus with Tahini"
+   },
+   "price": 4000,
+   "description": null,
+   "image": null,
+   "featured": false,
+   "available": true,
+   "allergens": []
+  },
+  {
+   "id": "mushroom-soup",
+   "category": "soups",
+   "name": {
+    "ar": "شوربة الفطر",
+    "ku": "شۆربای قارچک",
+    "en": "Mushroom Soup"
+   },
+   "price": 4000,
+   "description": null,
+   "image": null,
+   "featured": false,
+   "available": true,
+   "allergens": []
+  },
+  {
+   "id": "chicken-soup",
+   "category": "soups",
+   "name": {
+    "ar": "شوربة دجاج",
+    "ku": "شۆربای مریشک",
+    "en": "Chicken Soup"
+   },
+   "price": 4000,
+   "description": null,
+   "image": null,
+   "featured": false,
+   "available": true,
+   "allergens": []
+  },
+  {
+   "id": "lentil-soup",
+   "category": "soups",
+   "name": {
+    "ar": "شوربة عدس",
+    "ku": "شۆربای نیسک",
+    "en": "Lentil Soup"
+   },
+   "price": 2000,
+   "description": null,
+   "image": null,
+   "featured": false,
+   "available": true,
+   "allergens": []
+  },
+  {
+   "id": "meat-quzi",
+   "category": "eastern-cuisine",
+   "name": {
+    "ar": "قوزي لحم (350 غم)",
+    "ku": "قووزی گۆشت (350 گرام)",
+    "en": "Meat Quzi (350 g)"
+   },
+   "price": 19000,
+   "description": null,
+   "image": null,
+   "featured": false,
+   "available": true,
+   "allergens": []
+  },
+  {
+   "id": "chicken-quzi",
+   "category": "eastern-cuisine",
+   "name": {
+    "ar": "قوزي دجاج",
+    "ku": "قووزی مریشک",
+    "en": "Chicken Quzi"
+   },
+   "price": 8000,
+   "description": null,
+   "image": null,
+   "featured": false,
+   "available": true,
+   "allergens": []
+  },
+  {
+   "id": "chicken-biryani",
+   "category": "eastern-cuisine",
+   "name": {
+    "ar": "برياني دجاج",
+    "ku": "بریانی مریشک",
+    "en": "Chicken Biryani"
+   },
+   "price": 8000,
+   "description": null,
+   "image": null,
+   "featured": false,
+   "available": true,
+   "allergens": []
+  },
+  {
+   "id": "broad-bean-rice",
+   "category": "eastern-cuisine",
+   "name": {
+    "ar": "رز باقلاء",
+    "ku": "برنجی باقڵە",
+    "en": "Broad Bean Rice"
+   },
+   "price": 3000,
+   "description": null,
+   "image": null,
+   "featured": false,
+   "available": true,
+   "allergens": []
+  },
+  {
+   "id": "plain-rice",
+   "category": "eastern-cuisine",
+   "name": {
+    "ar": "رز سادة",
+    "ku": "برنجی سادە",
+    "en": "Plain Rice"
+   },
+   "price": 3000,
+   "description": null,
+   "image": null,
+   "featured": false,
+   "available": true,
+   "allergens": []
+  },
+  {
+   "id": "chicken-with-rice",
+   "category": "eastern-cuisine",
+   "name": {
+    "ar": "دجاج مع الرز",
+    "ku": "مریشک لەگەڵ برنج",
+    "en": "Chicken with Rice"
+   },
+   "price": 7000,
+   "description": null,
+   "image": null,
+   "featured": false,
+   "available": true,
+   "allergens": []
+  },
+  {
+   "id": "mushroom-beef-steak",
+   "category": "western-cuisine",
+   "name": {
+    "ar": "ستيك لحم بالمشروم",
+    "ku": "ستێکی گۆشت لەگەڵ قارچک",
+    "en": "Mushroom Beef Steak"
+   },
+   "price": 16000,
+   "description": null,
+   "image": null,
+   "featured": false,
+   "available": true,
+   "allergens": []
+  },
+  {
+   "id": "lemon-beef-steak",
+   "category": "western-cuisine",
+   "name": {
+    "ar": "ستيك لحم بالليمون",
+    "ku": "ستێکی گۆشت بە لیمۆ",
+    "en": "Lemon Beef Steak"
+   },
+   "price": 16000,
+   "description": null,
+   "image": null,
+   "featured": false,
+   "available": true,
+   "allergens": []
+  },
+  {
+   "id": "lemon-chicken-steak",
+   "category": "western-cuisine",
+   "name": {
+    "ar": "ستيك دجاج بالليمون",
+    "ku": "ستێکی مریشک بە لیمۆ",
+    "en": "Lemon Chicken Steak"
+   },
+   "price": 12000,
+   "description": null,
+   "image": null,
+   "featured": false,
+   "available": true,
+   "allergens": []
+  },
+  {
+   "id": "mushroom-chicken-steak",
+   "category": "western-cuisine",
+   "name": {
+    "ar": "ستيك دجاج بالمشروم",
+    "ku": "ستێکی مریشک لەگەڵ قارچک",
+    "en": "Mushroom Chicken Steak"
+   },
+   "price": 12000,
+   "description": null,
+   "image": null,
+   "featured": false,
+   "available": true,
+   "allergens": []
+  },
+  {
+   "id": "rizo",
+   "category": "western-cuisine",
+   "name": {
+    "ar": "ريزو",
+    "ku": "ڕیزۆ",
+    "en": "Rizo"
+   },
+   "price": 5000,
+   "description": null,
+   "image": null,
+   "featured": false,
+   "available": true,
+   "allergens": []
+  },
+  {
+   "id": "cactus-rizo",
+   "category": "western-cuisine",
+   "name": {
+    "ar": "ريزو كاكتوس",
+    "ku": "ڕیزۆی کاکتوس",
+    "en": "Cactus Rizo"
+   },
+   "price": 6000,
+   "description": null,
+   "image": null,
+   "featured": true,
+   "available": true,
+   "allergens": []
+  },
+  {
+   "id": "smoked-rizo",
+   "category": "western-cuisine",
+   "name": {
+    "ar": "ريزو مدخن",
+    "ku": "ڕیزۆی دووکەڵکراو",
+    "en": "Smoked Rizo"
+   },
+   "price": 6000,
+   "description": null,
+   "image": null,
+   "featured": false,
+   "available": true,
+   "allergens": []
+  },
+  {
+   "id": "cheese-rizo",
+   "category": "western-cuisine",
+   "name": {
+    "ar": "ريزو بالجبن",
+    "ku": "ڕیزۆی پەنیر",
+    "en": "Cheese Rizo"
+   },
+   "price": 6000,
+   "description": null,
+   "image": null,
+   "featured": false,
+   "available": true,
+   "allergens": []
+  },
+  {
+   "id": "chicken-burger",
+   "category": "western-cuisine",
+   "name": {
+    "ar": "برغر دجاج",
+    "ku": "بەرگەری مریشک",
+    "en": "Chicken Burger"
+   },
+   "price": 7500,
+   "description": null,
+   "image": null,
+   "featured": false,
+   "available": true,
+   "allergens": []
+  },
+  {
+   "id": "beef-burger",
+   "category": "western-cuisine",
+   "name": {
+    "ar": "برغر لحم",
+    "ku": "بەرگەری گۆشت",
+    "en": "Beef Burger"
+   },
+   "price": 8500,
+   "description": null,
+   "image": null,
+   "featured": false,
+   "available": true,
+   "allergens": []
+  },
+  {
+   "id": "cheese-burger",
+   "category": "western-cuisine",
+   "name": {
+    "ar": "برغر بالجبن",
+    "ku": "بەرگەری پەنیر",
+    "en": "Cheese Burger"
+   },
+   "price": 9000,
+   "description": null,
+   "image": null,
+   "featured": false,
+   "available": true,
+   "allergens": []
+  },
+  {
+   "id": "mushroom-burger",
+   "category": "western-cuisine",
+   "name": {
+    "ar": "برغر مشروم",
+    "ku": "بەرگەری قارچک",
+    "en": "Mushroom Burger"
+   },
+   "price": 9000,
+   "description": null,
+   "image": null,
+   "featured": false,
+   "available": true,
+   "allergens": []
+  },
+  {
+   "id": "classic-beef-burger",
+   "category": "western-cuisine",
+   "name": {
+    "ar": "برغر لحم كلاسيك",
+    "ku": "بەرگەری گۆشتی کلاسیک",
+    "en": "Classic Beef Burger"
+   },
+   "price": 5000,
+   "description": null,
+   "image": null,
+   "featured": false,
+   "available": true,
+   "allergens": []
+  },
+  {
+   "id": "classic-chicken-burger",
+   "category": "western-cuisine",
+   "name": {
+    "ar": "برغر دجاج كلاسيك",
+    "ku": "بەرگەری مریشکی کلاسیک",
+    "en": "Classic Chicken Burger"
+   },
+   "price": 4000,
+   "description": null,
+   "image": null,
+   "featured": false,
+   "available": true,
+   "allergens": []
+  },
+  {
+   "id": "cactus-burger",
+   "category": "western-cuisine",
+   "name": {
+    "ar": "برغر كاكتوس",
+    "ku": "بەرگەری کاکتوس",
+    "en": "Cactus Burger"
+   },
+   "price": 9000,
+   "description": null,
+   "image": null,
+   "featured": true,
+   "available": true,
+   "allergens": []
+  },
+  {
+   "id": "beef-diet-meal",
+   "category": "western-cuisine",
+   "name": {
+    "ar": "وجبة دايت لحم",
+    "ku": "ژەمی دایێتی گۆشت",
+    "en": "Beef Diet Meal"
+   },
+   "price": 8500,
+   "description": null,
+   "image": null,
+   "featured": false,
+   "available": true,
+   "allergens": []
+  },
+  {
+   "id": "chicken-diet-meal",
+   "category": "western-cuisine",
+   "name": {
+    "ar": "وجبة دايت دجاج",
+    "ku": "ژەمی دایێتی مریشک",
+    "en": "Chicken Diet Meal"
+   },
+   "price": 7500,
+   "description": null,
+   "image": null,
+   "featured": false,
+   "available": true,
+   "allergens": []
+  },
+  {
+   "id": "zinger",
+   "category": "western-cuisine",
+   "name": {
+    "ar": "زنجر",
+    "ku": "زینگەر",
+    "en": "Zinger"
+   },
+   "price": 6500,
+   "description": null,
+   "image": null,
+   "featured": false,
+   "available": true,
+   "allergens": []
+  },
+  {
+   "id": "escalope",
+   "category": "western-cuisine",
+   "name": {
+    "ar": "سكالوب",
+    "ku": "ئەسکالۆپ",
+    "en": "Escalope"
+   },
+   "price": 6500,
+   "description": null,
+   "image": null,
+   "featured": false,
+   "available": true,
+   "allergens": []
+  },
+  {
+   "id": "plain-fries",
+   "category": "western-cuisine",
+   "name": {
+    "ar": "بطاطا سادة",
+    "ku": "پەتاتەی سادە",
+    "en": "Plain Fries"
+   },
+   "price": 2500,
+   "description": null,
+   "image": null,
+   "featured": false,
+   "available": true,
+   "allergens": []
+  },
+  {
+   "id": "cheese-fries",
+   "category": "western-cuisine",
+   "name": {
+    "ar": "بطاطا بالجبن",
+    "ku": "پەتاتەی پەنیر",
+    "en": "Cheese Fries"
+   },
+   "price": 3500,
+   "description": null,
+   "image": null,
+   "featured": false,
+   "available": true,
+   "allergens": []
+  },
+  {
+   "id": "beef-fajita",
+   "category": "western-cuisine",
+   "name": {
+    "ar": "فاهيتا لحم",
+    "ku": "فاهیتای گۆشت",
+    "en": "Beef Fajita"
+   },
+   "price": 6000,
+   "description": null,
+   "image": null,
+   "featured": false,
+   "available": true,
+   "allergens": []
+  },
+  {
+   "id": "chicken-fajita",
+   "category": "western-cuisine",
+   "name": {
+    "ar": "فاهيتا دجاج",
+    "ku": "فاهیتای مریشک",
+    "en": "Chicken Fajita"
+   },
+   "price": 5000,
+   "description": null,
+   "image": null,
+   "featured": false,
+   "available": true,
+   "allergens": []
+  },
+  {
+   "id": "cheesecake",
+   "category": "pastries-cakes",
+   "name": {
+    "ar": "تشيز كيك",
+    "ku": "چیزکێک",
+    "en": "Cheesecake"
+   },
+   "price": 5000,
+   "description": null,
+   "image": null,
+   "featured": false,
+   "available": true,
+   "allergens": []
+  },
+  {
+   "id": "chocolate-cake",
+   "category": "pastries-cakes",
+   "name": {
+    "ar": "كيك شوكولاتة",
+    "ku": "کێکی شکۆلاتە",
+    "en": "Chocolate Cake"
+   },
+   "price": 5000,
+   "description": null,
+   "image": null,
+   "featured": false,
+   "available": true,
+   "allergens": []
+  },
+  {
+   "id": "tiramisu-cake",
+   "category": "pastries-cakes",
+   "name": {
+    "ar": "كيك تيراميسو",
+    "ku": "کێکی تیرامیسۆ",
+    "en": "Tiramisu Cake"
+   },
+   "price": 5000,
+   "description": null,
+   "image": null,
+   "featured": false,
+   "available": true,
+   "allergens": []
+  },
+  {
+   "id": "strawberry-crepe",
+   "category": "pastries-cakes",
+   "name": {
+    "ar": "كريب فراولة",
+    "ku": "کرێپی فڕاولە",
+    "en": "Strawberry Crêpe"
+   },
+   "price": 6000,
+   "description": null,
+   "image": null,
+   "featured": false,
+   "available": true,
+   "allergens": []
+  },
+  {
+   "id": "banana-crepe",
+   "category": "pastries-cakes",
+   "name": {
+    "ar": "كريب موز",
+    "ku": "کرێپی مۆز",
+    "en": "Banana Crêpe"
+   },
+   "price": 6000,
+   "description": null,
+   "image": null,
+   "featured": false,
+   "available": true,
+   "allergens": []
+  },
+  {
+   "id": "cactus-crepe",
+   "category": "pastries-cakes",
+   "name": {
+    "ar": "كريب كاكتوس",
+    "ku": "کرێپی کاکتوس",
+    "en": "Cactus Crêpe"
+   },
+   "price": 7000,
+   "description": null,
+   "image": null,
+   "featured": true,
+   "available": true,
+   "allergens": []
+  },
+  {
+   "id": "nutella-crepe",
+   "category": "pastries-cakes",
+   "name": {
+    "ar": "كريب نوتيلا",
+    "ku": "کرێپی نۆتێلا",
+    "en": "Nutella Crêpe"
+   },
+   "price": 5000,
+   "description": null,
+   "image": null,
+   "featured": false,
+   "available": true,
+   "allergens": []
+  },
+  {
+   "id": "fruit-platter-m",
+   "category": "pastries-cakes",
+   "name": {
+    "ar": "طبق فواكه وسط",
+    "ku": "قاپی میوە (مامناوەند)",
+    "en": "Fruit Platter (Medium)"
+   },
+   "price": 5000,
+   "description": null,
+   "image": null,
+   "featured": false,
+   "available": true,
+   "allergens": []
+  },
+  {
+   "id": "fruit-platter-l",
+   "category": "pastries-cakes",
+   "name": {
+    "ar": "طبق فواكه كبير",
+    "ku": "قاپی میوە (گەورە)",
+    "en": "Fruit Platter (Large)"
+   },
+   "price": 7000,
+   "description": null,
+   "image": null,
+   "featured": false,
+   "available": true,
+   "allergens": []
+  },
+  {
+   "id": "water",
+   "category": "soft-drinks-water",
+   "name": {
+    "ar": "ماء",
+    "ku": "ئاو",
+    "en": "Water"
+   },
+   "price": 500,
+   "description": null,
+   "image": null,
+   "featured": false,
+   "available": true,
+   "allergens": []
+  },
+  {
+   "id": "pepsi",
+   "category": "soft-drinks-water",
+   "name": {
+    "ar": "بيبسي",
+    "ku": "پێپسی",
+    "en": "Pepsi"
+   },
+   "price": 750,
+   "description": null,
+   "image": null,
+   "featured": false,
+   "available": true,
+   "allergens": []
+  },
+  {
+   "id": "sprite",
+   "category": "soft-drinks-water",
+   "name": {
+    "ar": "سبرايت",
+    "ku": "سپرایت",
+    "en": "Sprite"
+   },
+   "price": 750,
+   "description": null,
+   "image": null,
+   "featured": false,
+   "available": true,
+   "allergens": []
+  },
+  {
+   "id": "mirinda",
+   "category": "soft-drinks-water",
+   "name": {
+    "ar": "ميرندا",
+    "ku": "میرندا",
+    "en": "Mirinda"
+   },
+   "price": 750,
+   "description": null,
+   "image": null,
+   "featured": false,
+   "available": true,
+   "allergens": []
+  },
+  {
+   "id": "diet-pepsi",
+   "category": "soft-drinks-water",
+   "name": {
+    "ar": "بيبسي دايت",
+    "ku": "پێپسی دایێت",
+    "en": "Diet Pepsi"
+   },
+   "price": 750,
+   "description": null,
+   "image": null,
+   "featured": false,
+   "available": true,
+   "allergens": []
+  },
+  {
+   "id": "yogurt-drink",
+   "category": "soft-drinks-water",
+   "name": {
+    "ar": "لبن",
+    "ku": "دۆ",
+    "en": "Yogurt Drink"
+   },
+   "price": 750,
+   "description": null,
+   "image": null,
+   "featured": false,
+   "available": true,
+   "allergens": []
+  },
+  {
+   "id": "bounty-shisha",
+   "category": "shisha",
+   "name": {
+    "ar": "باونتي",
+    "ku": "نێرگەلەی باوونتی",
+    "en": "Bounty Shisha"
+   },
+   "price": 8000,
+   "description": null,
+   "image": null,
+   "featured": false,
+   "available": true,
+   "allergens": [],
+   "review": "REVIEW: price assumed (8,000) — the source PDF lists only 10 price values for 12 shisha rows. See docs/CONTENT_AUDIT.md."
+  },
+  {
+   "id": "cactus-shisha",
+   "category": "shisha",
+   "name": {
+    "ar": "كاكتوس",
+    "ku": "نێرگەلەی کاکتوس",
+    "en": "Cactus Shisha"
+   },
+   "price": 8000,
+   "description": null,
+   "image": null,
+   "featured": true,
+   "available": true,
+   "allergens": [],
+   "review": "REVIEW: price assumed (8,000) — the source PDF lists only 10 price values for 12 shisha rows. See docs/CONTENT_AUDIT.md."
+  },
+  {
+   "id": "double-apple-shisha",
+   "category": "shisha",
+   "name": {
+    "ar": "تفاحتين",
+    "ku": "نێرگەلەی دوو سێو",
+    "en": "Double Apple Shisha"
+   },
+   "price": 8000,
+   "description": null,
+   "image": null,
+   "featured": false,
+   "available": true,
+   "allergens": [],
+   "review": "REVIEW: price assumed (8,000) — the source PDF lists only 10 price values for 12 shisha rows. See docs/CONTENT_AUDIT.md."
+  },
+  {
+   "id": "english-shisha",
+   "category": "shisha",
+   "name": {
+    "ar": "إنكليزي",
+    "ku": "نێرگەلەی ئینگلیزی",
+    "en": "English Shisha"
+   },
+   "price": 8000,
+   "description": null,
+   "image": null,
+   "featured": false,
+   "available": true,
+   "allergens": [],
+   "review": "REVIEW: price assumed (8,000) — the source PDF lists only 10 price values for 12 shisha rows. See docs/CONTENT_AUDIT.md."
+  },
+  {
+   "id": "gum-mint-shisha",
+   "category": "shisha",
+   "name": {
+    "ar": "علك ونعناع",
+    "ku": "نێرگەلەی عەلک و پونگ",
+    "en": "Gum & Mint Shisha"
+   },
+   "price": 8000,
+   "description": null,
+   "image": null,
+   "featured": false,
+   "available": true,
+   "allergens": [],
+   "review": "REVIEW: price assumed (8,000) — the source PDF lists only 10 price values for 12 shisha rows. See docs/CONTENT_AUDIT.md."
+  },
+  {
+   "id": "lemon-mint-shisha",
+   "category": "shisha",
+   "name": {
+    "ar": "ليمون ونعناع",
+    "ku": "نێرگەلەی لیمۆ و پونگ",
+    "en": "Lemon & Mint Shisha"
+   },
+   "price": 8000,
+   "description": null,
+   "image": null,
+   "featured": false,
+   "available": true,
+   "allergens": [],
+   "review": "REVIEW: price assumed (8,000) — the source PDF lists only 10 price values for 12 shisha rows. See docs/CONTENT_AUDIT.md."
+  },
+  {
+   "id": "havana-shisha",
+   "category": "shisha",
+   "name": {
+    "ar": "هافانا",
+    "ku": "نێرگەلەی هاڤانا",
+    "en": "Havana Shisha"
+   },
+   "price": 8000,
+   "description": null,
+   "image": null,
+   "featured": false,
+   "available": true,
+   "allergens": [],
+   "review": "REVIEW: price assumed (8,000) — the source PDF lists only 10 price values for 12 shisha rows. See docs/CONTENT_AUDIT.md."
+  },
+  {
+   "id": "qazwan-shisha",
+   "category": "shisha",
+   "name": {
+    "ar": "قزوان",
+    "ku": "نێرگەلەی قەزوان",
+    "en": "Qazwan Shisha"
+   },
+   "price": 8000,
+   "description": null,
+   "image": null,
+   "featured": false,
+   "available": true,
+   "allergens": [],
+   "review": "REVIEW: price assumed (8,000) — the source PDF lists only 10 price values for 12 shisha rows. See docs/CONTENT_AUDIT.md."
+  },
+  {
+   "id": "blueberry-shisha",
+   "category": "shisha",
+   "name": {
+    "ar": "بلوبيري",
+    "ku": "نێرگەلەی بلووبێری",
+    "en": "Blueberry Shisha"
+   },
+   "price": 8000,
+   "description": null,
+   "image": null,
+   "featured": false,
+   "available": true,
+   "allergens": [],
+   "review": "REVIEW: price assumed (8,000) — the source PDF lists only 10 price values for 12 shisha rows. See docs/CONTENT_AUDIT.md."
+  },
+  {
+   "id": "sindi-shisha",
+   "category": "shisha",
+   "name": {
+    "ar": "سندي",
+    "ku": "نێرگەلەی سیندی",
+    "en": "Sindi Shisha"
+   },
+   "price": 8000,
+   "description": null,
+   "image": null,
+   "featured": false,
+   "available": true,
+   "allergens": [],
+   "review": "REVIEW: price assumed (8,000) — the source PDF lists only 10 price values for 12 shisha rows. See docs/CONTENT_AUDIT.md. Flavour name 'Sindi' kept as written."
+  },
+  {
+   "id": "gum-watermelon-shisha",
+   "category": "shisha",
+   "name": {
+    "ar": "علك وبطيخ",
+    "ku": "نێرگەلەی عەلک و هەندەوانە",
+    "en": "Gum & Watermelon Shisha"
+   },
+   "price": 8000,
+   "description": null,
+   "image": null,
+   "featured": false,
+   "available": true,
+   "allergens": [],
+   "review": "REVIEW: price assumed (8,000) — the source PDF lists only 10 price values for 12 shisha rows. See docs/CONTENT_AUDIT.md."
+  },
+  {
+   "id": "fresh-shisha",
+   "category": "shisha",
+   "name": {
+    "ar": "طبيعي",
+    "ku": "نێرگەلەی سروشتی",
+    "en": "Fresh Shisha"
+   },
+   "price": 10000,
+   "description": null,
+   "image": null,
+   "featured": false,
+   "available": true,
+   "allergens": []
+  }
+ ]
+}

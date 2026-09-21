@@ -1,0 +1,82 @@
+/* Category header motifs. Pure CSS (compositor-friendly transforms/opacity); paused until the header is on screen. */
+.fx { position: absolute; inset: 0; z-index: 1; overflow: hidden; pointer-events: none; color: currentColor; }
+.fx * { animation-play-state: paused; }
+.fx.is-live * { animation-play-state: running; }
+.fx i { position: absolute; display: block; font-style: normal; }
+.fx svg { width: 100%; height: 100%; overflow: visible; }
+
+/* steam: three wisps rising */
+.fx--steam i { inset-block-end: -10%; height: 92%; width: 46px; opacity: 0; animation: steamUp 5s ease-in infinite; }
+.fx--steam svg path { fill: none; stroke: currentColor; stroke-width: 3; stroke-linecap: round; }
+.fx--steam i:nth-child(1) { inset-inline-start: 36%; animation-delay: 0s; }
+.fx--steam i:nth-child(2) { inset-inline-start: 46%; animation-delay: -1.7s; height: 78%; }
+.fx--steam i:nth-child(3) { inset-inline-start: 56%; animation-delay: -3.3s; }
+@keyframes steamUp { 0% { transform: translateY(24%) scaleX(0.9); opacity: 0; } 25% { opacity: 0.4; } 100% { transform: translateY(-34%) scaleX(1.15); opacity: 0; } }
+
+/* swirl: rotating coffee swirl */
+.fx--swirl i { inset-block-start: -40%; inset-inline-end: -8%; width: 130%; max-width: 520px; aspect-ratio: 1; opacity: 0.22; animation: spin 46s linear infinite; }
+.fx--swirl svg path { fill: none; stroke: currentColor; stroke-width: 2.4; stroke-linecap: round; }
+@keyframes spin { to { transform: rotate(360deg); } }
+
+/* creamy: layered milk waves */
+.fx--creamy i { inset-inline-start: 0; width: 200%; height: 46px; animation: waveX 12s linear infinite; }
+.fx--creamy svg path { fill: currentColor; }
+.fx--creamy i:nth-child(1) { inset-block-end: 0; opacity: 0.16; animation-duration: 14s; }
+.fx--creamy i:nth-child(2) { inset-block-end: 8px; opacity: 0.12; animation-duration: 19s; animation-direction: reverse; }
+.fx--creamy i:nth-child(3) { inset-block-end: 20px; opacity: 0.08; animation-duration: 25s; }
+@keyframes waveX { to { transform: translateX(-50%); } }
+html[dir="rtl"] .fx--creamy i { animation-name: waveXr; inset-inline-start: auto; inset-inline-end: 0; }
+@keyframes waveXr { to { transform: translateX(50%); } }
+
+/* fresh: floating citrus slices */
+.fx--fresh i { opacity: 0.24; animation: floaty 9s ease-in-out infinite alternate; }
+.fx--fresh svg * { fill: none; stroke: currentColor; stroke-width: 2; }
+.fx--fresh i:nth-child(1) { width: 96px; inset-block-start: 8%; inset-inline-end: 30%; }
+.fx--fresh i:nth-child(2) { width: 62px; inset-block-start: 56%; inset-inline-end: 12%; animation-delay: -3s; }
+.fx--fresh i:nth-child(3) { width: 130px; inset-block-start: -18%; inset-inline-end: 52%; animation-delay: -6s; }
+@keyframes floaty { from { transform: translate3d(0, 0, 0) rotate(0); } to { transform: translate3d(0, 14px, 0) rotate(40deg); } }
+
+/* bubbles: mojito bubbles */
+.fx--bubbles i { inset-block-end: -30px; inset-inline-start: var(--x); width: var(--s); height: var(--s); border: 2px solid currentColor; border-radius: 50%; opacity: 0; animation: rise var(--t) ease-in infinite; animation-delay: var(--d); }
+@keyframes rise { 0% { transform: translate3d(0, 0, 0); opacity: 0; } 15% { opacity: 0.4; } 100% { transform: translate3d(var(--w, 12px), -230px, 0); opacity: 0; } }
+
+/* morning: sunrise rays */
+.fx--morning i:nth-child(1) { inset-block-start: -150%; inset-inline-end: -25%; width: 150%; max-width: 640px; aspect-ratio: 1; border-radius: 50%; background: repeating-conic-gradient(rgba(0, 139, 98, 0.16) 0 5deg, transparent 5deg 15deg); animation: spin 90s linear infinite; -webkit-mask-image: radial-gradient(circle, #000 20%, transparent 66%); mask-image: radial-gradient(circle, #000 20%, transparent 66%); }
+.fx--morning i:nth-child(2) { inset-block-start: -30px; inset-inline-end: 8%; width: 90px; aspect-ratio: 1; border-radius: 50%; background: radial-gradient(circle, rgba(0, 139, 98, 0.35), rgba(0, 139, 98, 0) 70%); animation: glow 5s ease-in-out infinite alternate; }
+@keyframes glow { from { transform: scale(0.85); opacity: 0.6; } to { transform: scale(1.25); opacity: 1; } }
+
+/* pizza: turning slices */
+.fx--pizza i { inset-block-start: -22%; inset-inline-end: -6%; width: 78%; max-width: 380px; aspect-ratio: 1; border-radius: 50%; border: 2px solid rgba(255, 255, 255, 0.34); background: repeating-conic-gradient(rgba(255, 255, 255, 0.24) 0 1.2deg, transparent 1.2deg 45deg); animation: spin 38s linear infinite; }
+.fx--pizza i:nth-child(2) { inset-block-start: 8%; inset-inline-end: 12%; width: 46%; animation-direction: reverse; opacity: 0.7; }
+
+/* leaf: leaves that sway */
+.fx--leaf i { inset-block-end: -6%; inset-inline-start: var(--x); width: 70px; height: 70px; transform-origin: 50% 100%; opacity: 0.28; animation: sway 6s ease-in-out infinite alternate; animation-delay: var(--d); }
+.fx--leaf svg path { fill: currentColor; }
+@keyframes sway { from { transform: rotate(calc(var(--r) - 5deg)); } to { transform: rotate(calc(var(--r) + 6deg)); } }
+
+/* ripple: soup ripples */
+.fx--ripple i { inset-block-start: calc(50% - 100px); inset-inline-end: calc(24% - 100px); width: 200px; aspect-ratio: 1; border-radius: 50%; border: 2px solid currentColor; opacity: 0; animation: ripple 5.4s ease-out infinite; }
+.fx--ripple i:nth-child(2) { animation-delay: -1.8s; } .fx--ripple i:nth-child(3) { animation-delay: -3.6s; }
+@keyframes ripple { 0% { transform: scale(0.15); opacity: 0.55; } 100% { transform: scale(1.7); opacity: 0; } }
+
+/* ornament: eastern star lattice */
+.fx--ornament i { inset: -56px; opacity: 0.13; background: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='56' height='56' viewBox='0 0 56 56'%3E%3Cg fill='none' stroke='white' stroke-width='1.3'%3E%3Crect x='14' y='14' width='28' height='28'/%3E%3Crect x='14' y='14' width='28' height='28' transform='rotate(45 28 28)'/%3E%3Ccircle cx='28' cy='28' r='4'/%3E%3C/g%3E%3C/svg%3E") 0 0 / 56px 56px; animation: ornDrift 24s linear infinite; }
+@keyframes ornDrift { to { transform: translate3d(56px, 56px, 0); } }
+
+/* clean: modern hairlines */
+.fx--clean i { inset-inline-start: 0; width: 100%; height: 1.5px; background: currentColor; opacity: 0.22; transform-origin: 0 50%; animation: lineSlide 8s ease-in-out infinite alternate; animation-delay: var(--d); }
+.fx--clean i:nth-child(1) { inset-block-start: 22%; } .fx--clean i:nth-child(2) { inset-block-start: 40%; } .fx--clean i:nth-child(3) { inset-block-start: 58%; } .fx--clean i:nth-child(4) { inset-block-start: 76%; }
+@keyframes lineSlide { from { transform: scaleX(0.55) translateX(0); } to { transform: scaleX(1) translateX(0); } }
+
+/* layers: cake layers breathing */
+.fx--layers i { inset-inline-end: 12%; height: 24px; border-radius: 12px; background: currentColor; opacity: 0.16; animation: bob 4.4s ease-in-out infinite alternate; animation-delay: var(--d); }
+.fx--layers i:nth-child(1) { inset-block-end: 22px; width: 190px; } .fx--layers i:nth-child(2) { inset-block-end: 54px; width: 160px; inset-inline-end: calc(12% + 15px); } .fx--layers i:nth-child(3) { inset-block-end: 86px; width: 130px; inset-inline-end: calc(12% + 30px); } .fx--layers i:nth-child(4) { inset-block-end: 118px; width: 60px; inset-inline-end: calc(12% + 65px); border-radius: 50%; height: 60px; opacity: 0.2; }
+@keyframes bob { from { transform: translateY(0); } to { transform: translateY(-9px); } }
+
+/* fizz: quick tiny bubbles */
+.fx--fizz i { inset-block-end: -12px; inset-inline-start: var(--x); width: var(--s); height: var(--s); border-radius: 50%; background: currentColor; opacity: 0; animation: fizz var(--t) linear infinite; animation-delay: var(--d); }
+@keyframes fizz { 0% { transform: translate3d(0, 0, 0); opacity: 0; } 12% { opacity: 0.4; } 100% { transform: translate3d(var(--w, 6px), -190px, 0); opacity: 0; } }
+
+/* smoke: soft drifting wisps */
+.fx--smoke i { inset-block-end: -50%; inset-inline-start: var(--x); width: 170px; height: 170px; border-radius: 50%; background: radial-gradient(closest-side, rgba(255, 255, 255, 0.35), rgba(255, 255, 255, 0)); opacity: 0; filter: blur(8px); animation: smoke 11s ease-in infinite; animation-delay: var(--d); }
+@keyframes smoke { 0% { transform: translate3d(0, 0, 0) scale(0.7); opacity: 0; } 30% { opacity: 0.55; } 100% { transform: translate3d(var(--w, 40px), -230px, 0) scale(1.5); opacity: 0; } }

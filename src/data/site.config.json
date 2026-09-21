@@ -1,0 +1,17 @@
+{
+  "_comment": "Everything the café can fill in later. Empty strings are simply hidden on the site — nothing is invented.",
+  "name": { "ar": "كاكتوس كافيه", "ku": "کاکتوس کافێ", "en": "Cactus Café" },
+  "tagline": "Be a Cactus",
+  "instagram": {
+    "url": "https://shortlab.link/r/J7Ll",
+    "handle": "",
+    "_comment": "URL decoded from the QR code printed on the last page of the original menu PDF. Replace with the direct profile link (https://instagram.com/…) whenever you like."
+  },
+  "phone": "",
+  "whatsapp": "",
+  "email": "",
+  "address": { "ar": "", "ku": "", "en": "" },
+  "mapUrl": "",
+  "openingHours": { "ar": "", "ku": "", "en": "" },
+  "siteUrl": ""
+}

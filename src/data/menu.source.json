@@ -1,0 +1,1191 @@
+{
+ "note": "Transcription of the original 5-page menu PDF (376403a2-…pdf), used only by scripts/audit.mjs. Not imported by the app.",
+ "pages": {
+  "1": "BAR (Hot Drink, Milk Shake, Hot Coffee, Juice, Mojito)",
+  "2": "Snacks (Breakfast, Pizza, Salad, Soup)",
+  "3": "Main Courses (Eastern, Western, Pastries and Cakes, Soft Drinks & Water)",
+  "4": "Shisha",
+  "5": "Thank-you page (Instagram QR)"
+ },
+ "sourceSectionNames": {
+  "hot-drinks": "HOT DRINK",
+  "hot-coffee": "HOT COFFE",
+  "milkshakes": "MILK SHAKE",
+  "fresh-juices": "JUICE",
+  "mojitos": "MOJITO",
+  "breakfast": "BREAKFAST",
+  "pizza": "PIZZA",
+  "salads": "SALAD",
+  "soups": "SOUP",
+  "eastern-cuisine": "EASTERN CUISINE",
+  "western-cuisine": "WESTERN CUISINE",
+  "pastries-cakes": "PASTRIES AND CAKES",
+  "soft-drinks-water": "SOFT DRINKS & WATER",
+  "shisha": "SHISHA"
+ },
+ "sourceCounts": {
+  "hot-drinks": 10,
+  "hot-coffee": 14,
+  "milkshakes": 5,
+  "fresh-juices": 11,
+  "mojitos": 5,
+  "breakfast": 7,
+  "pizza": 8,
+  "salads": 7,
+  "soups": 3,
+  "eastern-cuisine": 6,
+  "western-cuisine": 23,
+  "pastries-cakes": 9,
+  "soft-drinks-water": 6,
+  "shisha": 12
+ },
+ "extraSourceLines": [
+  {
+   "category": "mojitos",
+   "page": 1,
+   "en": "ADD AN ENERGY DRINK TO YOUR MOJITO FOR ONLY 1,000 IQD",
+   "ar": "إضافة مشروب الطاقة مع الموهيتو — 1000 دينار فقط.",
+   "kept": "as category note (not a menu item)"
+  }
+ ],
+ "items": [
+  {
+   "id": "cactus-drink",
+   "category": "hot-drinks",
+   "page": 1,
+   "sourceEn": "CACTUS DRINK",
+   "sourceAr": "مشروب كاكتوس",
+   "sourcePrice": "5000",
+   "price": 5000
+  },
+  {
+   "id": "milk",
+   "category": "hot-drinks",
+   "page": 1,
+   "sourceEn": "MILK",
+   "sourceAr": "حليب",
+   "sourcePrice": "2500",
+   "price": 2500
+  },
+  {
+   "id": "milk-honey",
+   "category": "hot-drinks",
+   "page": 1,
+   "sourceEn": "MILK & HONEY",
+   "sourceAr": "حليب وعسل",
+   "sourcePrice": "3500",
+   "price": 3500
+  },
+  {
+   "id": "tea",
+   "category": "hot-drinks",
+   "page": 1,
+   "sourceEn": "TAE",
+   "sourceAr": "جاي",
+   "sourcePrice": "1000",
+   "price": 1000
+  },
+  {
+   "id": "ginger-honey-tea",
+   "category": "hot-drinks",
+   "page": 1,
+   "sourceEn": "TAE GINGER&HONEY",
+   "sourceAr": "شاي بالزنجبيل والعسل",
+   "sourcePrice": "2000",
+   "price": 2000
+  },
+  {
+   "id": "green-tea",
+   "category": "hot-drinks",
+   "page": 1,
+   "sourceEn": "GREEN TAE",
+   "sourceAr": "جاي اخضر",
+   "sourcePrice": "2000",
+   "price": 2000
+  },
+  {
+   "id": "lemon-tea",
+   "category": "hot-drinks",
+   "page": 1,
+   "sourceEn": "LIMONE TAE",
+   "sourceAr": "جاي بالليمون",
+   "sourcePrice": "2000",
+   "price": 2000
+  },
+  {
+   "id": "milk-tea",
+   "category": "hot-drinks",
+   "page": 1,
+   "sourceEn": "MILK & TEA",
+   "sourceAr": "جاي حليب",
+   "sourcePrice": "2000",
+   "price": 2000
+  },
+  {
+   "id": "karak-tea",
+   "category": "hot-drinks",
+   "page": 1,
+   "sourceEn": "KARAK TEA",
+   "sourceAr": "جاي كرك",
+   "sourcePrice": "2000",
+   "price": 2000
+  },
+  {
+   "id": "pomegranate-tea",
+   "category": "hot-drinks",
+   "page": 1,
+   "sourceEn": "POMEGRANATE TAE",
+   "sourceAr": "جاي بالرمان",
+   "sourcePrice": "2000",
+   "price": 2000
+  },
+  {
+   "id": "cactus-milkshake",
+   "category": "milkshakes",
+   "page": 1,
+   "sourceEn": "CACTUS MILKSHAKE",
+   "sourceAr": "ميلك شيك كاكتوس",
+   "sourcePrice": "7000",
+   "price": 7000
+  },
+  {
+   "id": "chocolate-milkshake",
+   "category": "milkshakes",
+   "page": 1,
+   "sourceEn": "CHOCOLATE MILKSHAKE",
+   "sourceAr": "ميلك شيك شوكولاتة",
+   "sourcePrice": "6000",
+   "price": 6000
+  },
+  {
+   "id": "oreo-milkshake",
+   "category": "milkshakes",
+   "page": 1,
+   "sourceEn": "OREO MILKSHAKE",
+   "sourceAr": "ميلك شيك اوريو",
+   "sourcePrice": "6000",
+   "price": 6000
+  },
+  {
+   "id": "strawberry-milkshake",
+   "category": "milkshakes",
+   "page": 1,
+   "sourceEn": "STRAWBERRY MILKSHAKE",
+   "sourceAr": "ميلك شيك فراولة",
+   "sourcePrice": "6000",
+   "price": 6000
+  },
+  {
+   "id": "vanilla-milkshake",
+   "category": "milkshakes",
+   "page": 1,
+   "sourceEn": "VANILLA MILKSHAKE",
+   "sourceAr": "ميلك شيك فانيلا",
+   "sourcePrice": "6000",
+   "price": 6000
+  },
+  {
+   "id": "espresso",
+   "category": "hot-coffee",
+   "page": 1,
+   "sourceEn": "ESPRESSO",
+   "sourceAr": "إسبريسو",
+   "sourcePrice": "3000",
+   "price": 3000
+  },
+  {
+   "id": "double-espresso",
+   "category": "hot-coffee",
+   "page": 1,
+   "sourceEn": "DUBLE ESPRESSO",
+   "sourceAr": "إسبريسو دبل",
+   "sourcePrice": "5000",
+   "price": 5000
+  },
+  {
+   "id": "americano",
+   "category": "hot-coffee",
+   "page": 1,
+   "sourceEn": "AMERICANO",
+   "sourceAr": "أمريكانو",
+   "sourcePrice": "4500",
+   "price": 4500
+  },
+  {
+   "id": "arabic-coffee",
+   "category": "hot-coffee",
+   "page": 1,
+   "sourceEn": "ARABIC COFFE",
+   "sourceAr": "قهوة عربية",
+   "sourcePrice": "3000",
+   "price": 3000
+  },
+  {
+   "id": "turkish-coffee",
+   "category": "hot-coffee",
+   "page": 1,
+   "sourceEn": "TURKISH COFFE",
+   "sourceAr": "قهوة تركيه",
+   "sourcePrice": "3000",
+   "price": 3000
+  },
+  {
+   "id": "tede-coffee",
+   "category": "hot-coffee",
+   "page": 1,
+   "sourceEn": "TEDE COFFE",
+   "sourceAr": "قهوة تيدي",
+   "sourcePrice": "5500",
+   "price": 5500
+  },
+  {
+   "id": "qazwan-coffee",
+   "category": "hot-coffee",
+   "page": 1,
+   "sourceEn": "QAZWAN COFFE",
+   "sourceAr": "قهوة قزوان",
+   "sourcePrice": "3500",
+   "price": 3500
+  },
+  {
+   "id": "nescafe",
+   "category": "hot-coffee",
+   "page": 1,
+   "sourceEn": "NESCAFE",
+   "sourceAr": "نسكافيه",
+   "sourcePrice": "5000",
+   "price": 5000
+  },
+  {
+   "id": "latte",
+   "category": "hot-coffee",
+   "page": 1,
+   "sourceEn": "LATTE COFFE",
+   "sourceAr": "لاتيه",
+   "sourcePrice": "5000",
+   "price": 5000
+  },
+  {
+   "id": "mocha",
+   "category": "hot-coffee",
+   "page": 1,
+   "sourceEn": "MOCA COFFE",
+   "sourceAr": "موكا",
+   "sourcePrice": "5000",
+   "price": 5000
+  },
+  {
+   "id": "cappuccino",
+   "category": "hot-coffee",
+   "page": 1,
+   "sourceEn": "CAPPUCINO",
+   "sourceAr": "كابتشينو",
+   "sourcePrice": "5000",
+   "price": 5000
+  },
+  {
+   "id": "espresso-con-panna",
+   "category": "hot-coffee",
+   "page": 1,
+   "sourceEn": "ESPRESSO CONPANA",
+   "sourceAr": "إسبريسو كون بانا",
+   "sourcePrice": "4000",
+   "price": 4000
+  },
+  {
+   "id": "espresso-macchiato",
+   "category": "hot-coffee",
+   "page": 1,
+   "sourceEn": "ESPRESSO MACCHIATO",
+   "sourceAr": "إسبريسو ماكياتو",
+   "sourcePrice": "4000",
+   "price": 4000
+  },
+  {
+   "id": "matcha-latte",
+   "category": "hot-coffee",
+   "page": 1,
+   "sourceEn": "MATCHA LATTE",
+   "sourceAr": "ماتشا لاتيه",
+   "sourcePrice": "5000",
+   "price": 5000
+  },
+  {
+   "id": "apple-juice",
+   "category": "fresh-juices",
+   "page": 1,
+   "sourceEn": "APPLE JUICE",
+   "sourceAr": "عصير تفاح",
+   "sourcePrice": "4000",
+   "price": 4000
+  },
+  {
+   "id": "blackberry-juice",
+   "category": "fresh-juices",
+   "page": 1,
+   "sourceEn": "BALCK BULBERRRY",
+   "sourceAr": "بلاك بيري",
+   "sourcePrice": "4000",
+   "price": 4000
+  },
+  {
+   "id": "banana-juice",
+   "category": "fresh-juices",
+   "page": 1,
+   "sourceEn": "BANANA JUICE",
+   "sourceAr": "عصير موز",
+   "sourcePrice": "4000",
+   "price": 4000
+  },
+  {
+   "id": "lemon-juice",
+   "category": "fresh-juices",
+   "page": 1,
+   "sourceEn": "LIMONE JUICE",
+   "sourceAr": "عصير ليمون",
+   "sourcePrice": "4000",
+   "price": 4000
+  },
+  {
+   "id": "lemon-mint-juice",
+   "category": "fresh-juices",
+   "page": 1,
+   "sourceEn": "LIMONE & MINT JUICE",
+   "sourceAr": "عصير ليمون ونعناع",
+   "sourcePrice": "4000",
+   "price": 4000
+  },
+  {
+   "id": "orange-juice",
+   "category": "fresh-juices",
+   "page": 1,
+   "sourceEn": "ORANGE JUICE",
+   "sourceAr": "عصير برتقال",
+   "sourcePrice": "4000",
+   "price": 4000
+  },
+  {
+   "id": "pineapple-juice",
+   "category": "fresh-juices",
+   "page": 1,
+   "sourceEn": "PINAPLE JUICE",
+   "sourceAr": "عصير اناناس",
+   "sourcePrice": "4000",
+   "price": 4000
+  },
+  {
+   "id": "carrot-juice",
+   "category": "fresh-juices",
+   "page": 1,
+   "sourceEn": "CAROT JUICE",
+   "sourceAr": "عصير جزر",
+   "sourcePrice": "4000",
+   "price": 4000
+  },
+  {
+   "id": "cocktail-juice",
+   "category": "fresh-juices",
+   "page": 1,
+   "sourceEn": "COCKTAIL JUICE",
+   "sourceAr": "كوكتيل",
+   "sourcePrice": "4000",
+   "price": 4000
+  },
+  {
+   "id": "pomegranate-juice",
+   "category": "fresh-juices",
+   "page": 1,
+   "sourceEn": "POMEGRANT JUICE",
+   "sourceAr": "عصير رمان",
+   "sourcePrice": "4000",
+   "price": 4000
+  },
+  {
+   "id": "healthy-juice",
+   "category": "fresh-juices",
+   "page": 1,
+   "sourceEn": "HEALTHY JUICE",
+   "sourceAr": "عصير صحي",
+   "sourcePrice": "5500",
+   "price": 5500
+  },
+  {
+   "id": "blueberry-mojito",
+   "category": "mojitos",
+   "page": 1,
+   "sourceEn": "BLUEBERRY",
+   "sourceAr": "بلوبيري",
+   "sourcePrice": "5000",
+   "price": 5000
+  },
+  {
+   "id": "classic-mojito",
+   "category": "mojitos",
+   "page": 1,
+   "sourceEn": "CALSSIC",
+   "sourceAr": "كلاسيك",
+   "sourcePrice": "5000",
+   "price": 5000
+  },
+  {
+   "id": "coconut-mojito",
+   "category": "mojitos",
+   "page": 1,
+   "sourceEn": "COCONUT",
+   "sourceAr": "جوز الهند",
+   "sourcePrice": "5000",
+   "price": 5000
+  },
+  {
+   "id": "passion-fruit-mojito",
+   "category": "mojitos",
+   "page": 1,
+   "sourceEn": "PASSION FRUIT",
+   "sourceAr": "باشن فروت",
+   "sourcePrice": "5000",
+   "price": 5000
+  },
+  {
+   "id": "strawberry-mojito",
+   "category": "mojitos",
+   "page": 1,
+   "sourceEn": "STRAWBERRY",
+   "sourceAr": "فراولة",
+   "sourcePrice": "5000",
+   "price": 5000
+  },
+  {
+   "id": "eggs-potato",
+   "category": "breakfast",
+   "page": 2,
+   "sourceEn": "EGG AND PATATO",
+   "sourceAr": "بيض وبطاطا",
+   "sourcePrice": "3500",
+   "price": 3500
+  },
+  {
+   "id": "eggs-tomato",
+   "category": "breakfast",
+   "page": 2,
+   "sourceEn": "EGG AND TAMATO",
+   "sourceAr": "بيض وطماطم",
+   "sourcePrice": "3500",
+   "price": 3500
+  },
+  {
+   "id": "sunny-side-up-eggs",
+   "category": "breakfast",
+   "page": 2,
+   "sourceEn": "EGGS CHAW",
+   "sourceAr": "بيض عين",
+   "sourcePrice": "3000",
+   "price": 3000
+  },
+  {
+   "id": "eggs-kas",
+   "category": "breakfast",
+   "page": 2,
+   "sourceEn": "KAS AND EGG",
+   "sourceAr": "بيض وكص",
+   "sourcePrice": "6000",
+   "price": 6000
+  },
+  {
+   "id": "kofta-ba-gosht",
+   "category": "breakfast",
+   "page": 2,
+   "sourceEn": "KOFTA BA GOSHT",
+   "sourceAr": "كبه سراي",
+   "sourcePrice": "5000",
+   "price": 5000
+  },
+  {
+   "id": "makhlama-beef",
+   "category": "breakfast",
+   "page": 2,
+   "sourceEn": "MAXLAMA BEEF",
+   "sourceAr": "مخلمه باللحم",
+   "sourcePrice": "5000",
+   "price": 5000
+  },
+  {
+   "id": "baqla-egg",
+   "category": "breakfast",
+   "page": 2,
+   "sourceEn": "PAQLA AND EGG",
+   "sourceAr": "باقلاء وبيض",
+   "sourcePrice": "4000",
+   "price": 4000
+  },
+  {
+   "id": "margherita-pizza",
+   "category": "pizza",
+   "page": 2,
+   "sourceEn": "MARGHERITA PIZZA",
+   "sourceAr": "مارغيرتا",
+   "sourcePrice": "6500",
+   "price": 6500
+  },
+  {
+   "id": "chicken-pizza",
+   "category": "pizza",
+   "page": 2,
+   "sourceEn": "CHICKEN PIZZA",
+   "sourceAr": "بيتزا دجاج",
+   "sourcePrice": "8000",
+   "price": 8000
+  },
+  {
+   "id": "vegetable-pizza",
+   "category": "pizza",
+   "page": 2,
+   "sourceEn": "VIGITABLE PIZZA",
+   "sourceAr": "بيتزا خضار",
+   "sourcePrice": "7000",
+   "price": 7000
+  },
+  {
+   "id": "salami-pizza",
+   "category": "pizza",
+   "page": 2,
+   "sourceEn": "SALAMI PIZZA",
+   "sourceAr": "بيتزا سلامي",
+   "sourcePrice": "7000",
+   "price": 7000
+  },
+  {
+   "id": "salmon-pizza",
+   "category": "pizza",
+   "page": 2,
+   "sourceEn": "SALAMON PIZZA",
+   "sourceAr": "بيتزا سلمون",
+   "sourcePrice": "8000",
+   "price": 8000
+  },
+  {
+   "id": "beef-pizza",
+   "category": "pizza",
+   "page": 2,
+   "sourceEn": "BEEF PIZZA",
+   "sourceAr": "بيتزا لحم",
+   "sourcePrice": "9000",
+   "price": 9000
+  },
+  {
+   "id": "mix-pizza",
+   "category": "pizza",
+   "page": 2,
+   "sourceEn": "MIX PIZZA",
+   "sourceAr": "بيتزا مكس",
+   "sourcePrice": "10.000",
+   "price": 10000
+  },
+  {
+   "id": "four-seasons-pizza",
+   "category": "pizza",
+   "page": 2,
+   "sourceEn": "FOUR SISION PIZZA",
+   "sourceAr": "الفصول الاربعه",
+   "sourcePrice": "10.000",
+   "price": 10000
+  },
+  {
+   "id": "tabbouleh",
+   "category": "salads",
+   "page": 2,
+   "sourceEn": "TAPOLA",
+   "sourceAr": "سلطة تبوله",
+   "sourcePrice": "4000",
+   "price": 4000
+  },
+  {
+   "id": "fattoush",
+   "category": "salads",
+   "page": 2,
+   "sourceEn": "FATTOUSH",
+   "sourceAr": "سلطة فتوش",
+   "sourcePrice": "4000",
+   "price": 4000
+  },
+  {
+   "id": "caesar-salad",
+   "category": "salads",
+   "page": 2,
+   "sourceEn": "CAESAR SALAD",
+   "sourceAr": "سلطة سيزار",
+   "sourcePrice": "6000",
+   "price": 6000
+  },
+  {
+   "id": "avocado-salad",
+   "category": "salads",
+   "page": 2,
+   "sourceEn": "AVOCADO SALAD",
+   "sourceAr": "سلطة افاكادو",
+   "sourcePrice": "6000",
+   "price": 6000
+  },
+  {
+   "id": "arugula-salad",
+   "category": "salads",
+   "page": 2,
+   "sourceEn": "ARUGULA SALAD",
+   "sourceAr": "سلطة جرجير",
+   "sourcePrice": "6000",
+   "price": 6000
+  },
+  {
+   "id": "jajik",
+   "category": "salads",
+   "page": 2,
+   "sourceEn": "JAJEK",
+   "sourceAr": "جاجيك",
+   "sourcePrice": "4000",
+   "price": 4000
+  },
+  {
+   "id": "hummus-tahini",
+   "category": "salads",
+   "page": 2,
+   "sourceEn": "HUMMUS WITH TAHINI",
+   "sourceAr": "حمص بطحينه",
+   "sourcePrice": "4000",
+   "price": 4000
+  },
+  {
+   "id": "mushroom-soup",
+   "category": "soups",
+   "page": 2,
+   "sourceEn": "MUSHROOM SOUP0",
+   "sourceAr": "شوربه بالفطر",
+   "sourcePrice": "4000",
+   "price": 4000
+  },
+  {
+   "id": "chicken-soup",
+   "category": "soups",
+   "page": 2,
+   "sourceEn": "CHICKEN SOUP",
+   "sourceAr": "شوربه دجاج",
+   "sourcePrice": "4000",
+   "price": 4000
+  },
+  {
+   "id": "lentil-soup",
+   "category": "soups",
+   "page": 2,
+   "sourceEn": "LENTIL SOUP",
+   "sourceAr": "شوربه عدس",
+   "sourcePrice": "2000",
+   "price": 2000
+  },
+  {
+   "id": "meat-quzi",
+   "category": "eastern-cuisine",
+   "page": 3,
+   "sourceEn": "MEET QUZI (350 GR)",
+   "sourceAr": "قوزي لحم (350 غم)",
+   "sourcePrice": "19.000",
+   "price": 19000
+  },
+  {
+   "id": "chicken-quzi",
+   "category": "eastern-cuisine",
+   "page": 3,
+   "sourceEn": "CHICKEN QUZI",
+   "sourceAr": "قوزي دجاج",
+   "sourcePrice": "8000",
+   "price": 8000
+  },
+  {
+   "id": "chicken-biryani",
+   "category": "eastern-cuisine",
+   "page": 3,
+   "sourceEn": "BIRYANI CHICKEN",
+   "sourceAr": "برياني دجاج",
+   "sourcePrice": "8000",
+   "price": 8000
+  },
+  {
+   "id": "broad-bean-rice",
+   "category": "eastern-cuisine",
+   "page": 3,
+   "sourceEn": "BROAD BEAN RICE",
+   "sourceAr": "رز باقلاء",
+   "sourcePrice": "3000",
+   "price": 3000
+  },
+  {
+   "id": "plain-rice",
+   "category": "eastern-cuisine",
+   "page": 3,
+   "sourceEn": "SADA RICE",
+   "sourceAr": "رز سادة",
+   "sourcePrice": "3000",
+   "price": 3000
+  },
+  {
+   "id": "chicken-with-rice",
+   "category": "eastern-cuisine",
+   "page": 3,
+   "sourceEn": "CHICKEN WITH RICE",
+   "sourceAr": "دجاج مع الرز",
+   "sourcePrice": "7000",
+   "price": 7000
+  },
+  {
+   "id": "mushroom-beef-steak",
+   "category": "western-cuisine",
+   "page": 3,
+   "sourceEn": "MUSHROOM BEEF STEAK",
+   "sourceAr": "ستيك لحم بالمشروم",
+   "sourcePrice": "16.000",
+   "price": 16000
+  },
+  {
+   "id": "lemon-beef-steak",
+   "category": "western-cuisine",
+   "page": 3,
+   "sourceEn": "LEMON BEEF STEAK",
+   "sourceAr": "ستيك لحم بالليمون",
+   "sourcePrice": "16.000",
+   "price": 16000
+  },
+  {
+   "id": "lemon-chicken-steak",
+   "category": "western-cuisine",
+   "page": 3,
+   "sourceEn": "LEMON CHICKEN STEAK",
+   "sourceAr": "ستيك دجاج بالليمون",
+   "sourcePrice": "12.000",
+   "price": 12000
+  },
+  {
+   "id": "mushroom-chicken-steak",
+   "category": "western-cuisine",
+   "page": 3,
+   "sourceEn": "MUSHROOM CHICKEN STEAK",
+   "sourceAr": "دجاج بالمشروم",
+   "sourcePrice": "12.000",
+   "price": 12000
+  },
+  {
+   "id": "rizo",
+   "category": "western-cuisine",
+   "page": 3,
+   "sourceEn": "RIZO",
+   "sourceAr": "ريزو",
+   "sourcePrice": "5000",
+   "price": 5000
+  },
+  {
+   "id": "cactus-rizo",
+   "category": "western-cuisine",
+   "page": 3,
+   "sourceEn": "CACTUS RIZO",
+   "sourceAr": "ريزو كاكتوس",
+   "sourcePrice": "6000",
+   "price": 6000
+  },
+  {
+   "id": "smoked-rizo",
+   "category": "western-cuisine",
+   "page": 3,
+   "sourceEn": "SMOKED RIZO",
+   "sourceAr": "ريزو مدخن",
+   "sourcePrice": "6000",
+   "price": 6000
+  },
+  {
+   "id": "cheese-rizo",
+   "category": "western-cuisine",
+   "page": 3,
+   "sourceEn": "CHEESE RIZO",
+   "sourceAr": "ريزو بالجبن",
+   "sourcePrice": "6000",
+   "price": 6000
+  },
+  {
+   "id": "chicken-burger",
+   "category": "western-cuisine",
+   "page": 3,
+   "sourceEn": "CHICKEN BURGER",
+   "sourceAr": "بركر دجاج",
+   "sourcePrice": "7500",
+   "price": 7500
+  },
+  {
+   "id": "beef-burger",
+   "category": "western-cuisine",
+   "page": 3,
+   "sourceEn": "BEEF BURGER",
+   "sourceAr": "بركر لحم",
+   "sourcePrice": "8500",
+   "price": 8500
+  },
+  {
+   "id": "cheese-burger",
+   "category": "western-cuisine",
+   "page": 3,
+   "sourceEn": "CHEESE BURGER",
+   "sourceAr": "بركر بالجبن",
+   "sourcePrice": "9000",
+   "price": 9000
+  },
+  {
+   "id": "mushroom-burger",
+   "category": "western-cuisine",
+   "page": 3,
+   "sourceEn": "MUSHROOM BURGER",
+   "sourceAr": "بركر مشروم",
+   "sourcePrice": "9000",
+   "price": 9000
+  },
+  {
+   "id": "classic-beef-burger",
+   "category": "western-cuisine",
+   "page": 3,
+   "sourceEn": "BURGER BEEF CLASIC",
+   "sourceAr": "بركر لحم كلاسيك",
+   "sourcePrice": "5000",
+   "price": 5000
+  },
+  {
+   "id": "classic-chicken-burger",
+   "category": "western-cuisine",
+   "page": 3,
+   "sourceEn": "BURGER CHICKEN CLASIC",
+   "sourceAr": "بركر دجاج كلاسيك",
+   "sourcePrice": "4000",
+   "price": 4000
+  },
+  {
+   "id": "cactus-burger",
+   "category": "western-cuisine",
+   "page": 3,
+   "sourceEn": "CACTUS BURGER",
+   "sourceAr": "بركر كاكتوس",
+   "sourcePrice": "9000",
+   "price": 9000
+  },
+  {
+   "id": "beef-diet-meal",
+   "category": "western-cuisine",
+   "page": 3,
+   "sourceEn": "BEEF DIET MEAL",
+   "sourceAr": "وجبة دايت لحم",
+   "sourcePrice": "8500",
+   "price": 8500
+  },
+  {
+   "id": "chicken-diet-meal",
+   "category": "western-cuisine",
+   "page": 3,
+   "sourceEn": "CHICKEN DIET MEAL",
+   "sourceAr": "وجبة دايت دجاج",
+   "sourcePrice": "7500",
+   "price": 7500
+  },
+  {
+   "id": "zinger",
+   "category": "western-cuisine",
+   "page": 3,
+   "sourceEn": "ZINGER",
+   "sourceAr": "زنكر",
+   "sourcePrice": "6500",
+   "price": 6500
+  },
+  {
+   "id": "escalope",
+   "category": "western-cuisine",
+   "page": 3,
+   "sourceEn": "ESCALOPE",
+   "sourceAr": "سكالوب",
+   "sourcePrice": "6500",
+   "price": 6500
+  },
+  {
+   "id": "plain-fries",
+   "category": "western-cuisine",
+   "page": 3,
+   "sourceEn": "FRIES SADA",
+   "sourceAr": "بطاطا سادة",
+   "sourcePrice": "2500",
+   "price": 2500
+  },
+  {
+   "id": "cheese-fries",
+   "category": "western-cuisine",
+   "page": 3,
+   "sourceEn": "FRIES CHEESE",
+   "sourceAr": "بطاطا بالجبن",
+   "sourcePrice": "3500",
+   "price": 3500
+  },
+  {
+   "id": "beef-fajita",
+   "category": "western-cuisine",
+   "page": 3,
+   "sourceEn": "FAJITA BEEF",
+   "sourceAr": "فاهيتا لحم",
+   "sourcePrice": "6000",
+   "price": 6000
+  },
+  {
+   "id": "chicken-fajita",
+   "category": "western-cuisine",
+   "page": 3,
+   "sourceEn": "FAJITA CHICKEN",
+   "sourceAr": "فاهيتاا دجاج",
+   "sourcePrice": "5000",
+   "price": 5000
+  },
+  {
+   "id": "cheesecake",
+   "category": "pastries-cakes",
+   "page": 3,
+   "sourceEn": "CHEESECAKE",
+   "sourceAr": "تشيز كيك",
+   "sourcePrice": "5000",
+   "price": 5000
+  },
+  {
+   "id": "chocolate-cake",
+   "category": "pastries-cakes",
+   "page": 3,
+   "sourceEn": "CHOCOLATE CAKE",
+   "sourceAr": "كيك شوكولاتة",
+   "sourcePrice": "5000",
+   "price": 5000
+  },
+  {
+   "id": "tiramisu-cake",
+   "category": "pastries-cakes",
+   "page": 3,
+   "sourceEn": "TIRAMISU CAKE",
+   "sourceAr": "كيك تيراميسو",
+   "sourcePrice": "5000",
+   "price": 5000
+  },
+  {
+   "id": "strawberry-crepe",
+   "category": "pastries-cakes",
+   "page": 3,
+   "sourceEn": "STRAWBERRY CREPE",
+   "sourceAr": "كريب فراولة",
+   "sourcePrice": "6000",
+   "price": 6000
+  },
+  {
+   "id": "banana-crepe",
+   "category": "pastries-cakes",
+   "page": 3,
+   "sourceEn": "BANANA CREPE",
+   "sourceAr": "كريب موز",
+   "sourcePrice": "6000",
+   "price": 6000
+  },
+  {
+   "id": "cactus-crepe",
+   "category": "pastries-cakes",
+   "page": 3,
+   "sourceEn": "CACTUS CREPE",
+   "sourceAr": "كريب كاكتوس",
+   "sourcePrice": "7000",
+   "price": 7000
+  },
+  {
+   "id": "nutella-crepe",
+   "category": "pastries-cakes",
+   "page": 3,
+   "sourceEn": "NUTELLA CREPE",
+   "sourceAr": "كريب نوتيلا",
+   "sourcePrice": "5000",
+   "price": 5000
+  },
+  {
+   "id": "fruit-platter-m",
+   "category": "pastries-cakes",
+   "page": 3,
+   "sourceEn": "FRUIT PLATTER M",
+   "sourceAr": "طبق فواكه وسط",
+   "sourcePrice": "5000",
+   "price": 5000
+  },
+  {
+   "id": "fruit-platter-l",
+   "category": "pastries-cakes",
+   "page": 3,
+   "sourceEn": "FRUIT PLATTER L",
+   "sourceAr": "طبق فواكه كبير",
+   "sourcePrice": "7000",
+   "price": 7000
+  },
+  {
+   "id": "water",
+   "category": "soft-drinks-water",
+   "page": 3,
+   "sourceEn": "WATER",
+   "sourceAr": "ماء",
+   "sourcePrice": "500",
+   "price": 500
+  },
+  {
+   "id": "pepsi",
+   "category": "soft-drinks-water",
+   "page": 3,
+   "sourceEn": "PEPSI",
+   "sourceAr": "ببسي",
+   "sourcePrice": "750",
+   "price": 750
+  },
+  {
+   "id": "sprite",
+   "category": "soft-drinks-water",
+   "page": 3,
+   "sourceEn": "SPRITE",
+   "sourceAr": "سبرايت",
+   "sourcePrice": "750",
+   "price": 750
+  },
+  {
+   "id": "mirinda",
+   "category": "soft-drinks-water",
+   "page": 3,
+   "sourceEn": "MIRINDA",
+   "sourceAr": "ميرندا",
+   "sourcePrice": "750",
+   "price": 750
+  },
+  {
+   "id": "diet-pepsi",
+   "category": "soft-drinks-water",
+   "page": 3,
+   "sourceEn": "DIET PEPSI",
+   "sourceAr": "ببسي دايت",
+   "sourcePrice": "750",
+   "price": 750
+  },
+  {
+   "id": "yogurt-drink",
+   "category": "soft-drinks-water",
+   "page": 3,
+   "sourceEn": "YOGURT DRINK",
+   "sourceAr": "لبن",
+   "sourcePrice": "750",
+   "price": 750
+  },
+  {
+   "id": "bounty-shisha",
+   "category": "shisha",
+   "page": 4,
+   "sourceEn": "BAUNTI SHISHA",
+   "sourceAr": "باونتي",
+   "sourcePrice": "8000 (assumed — see review)",
+   "price": 8000
+  },
+  {
+   "id": "cactus-shisha",
+   "category": "shisha",
+   "page": 4,
+   "sourceEn": "CACTUS SHISHA",
+   "sourceAr": "كاكتوس",
+   "sourcePrice": "8000 (assumed — see review)",
+   "price": 8000
+  },
+  {
+   "id": "double-apple-shisha",
+   "category": "shisha",
+   "page": 4,
+   "sourceEn": "DOUBLE APPLE SHISHA",
+   "sourceAr": "تفاحتين",
+   "sourcePrice": "8000 (assumed — see review)",
+   "price": 8000
+  },
+  {
+   "id": "english-shisha",
+   "category": "shisha",
+   "page": 4,
+   "sourceEn": "ENGLISH SHISHA",
+   "sourceAr": "انكليزي",
+   "sourcePrice": "8000 (assumed — see review)",
+   "price": 8000
+  },
+  {
+   "id": "gum-mint-shisha",
+   "category": "shisha",
+   "page": 4,
+   "sourceEn": "GUM & MINT SHISHA",
+   "sourceAr": "علج و نعناع",
+   "sourcePrice": "8000 (assumed — see review)",
+   "price": 8000
+  },
+  {
+   "id": "lemon-mint-shisha",
+   "category": "shisha",
+   "page": 4,
+   "sourceEn": "LEMON & MINT SHISHA",
+   "sourceAr": "ليمون و نعناع",
+   "sourcePrice": "8000 (assumed — see review)",
+   "price": 8000
+  },
+  {
+   "id": "havana-shisha",
+   "category": "shisha",
+   "page": 4,
+   "sourceEn": "HAVANA SHISHA",
+   "sourceAr": "هافانا",
+   "sourcePrice": "8000 (assumed — see review)",
+   "price": 8000
+  },
+  {
+   "id": "qazwan-shisha",
+   "category": "shisha",
+   "page": 4,
+   "sourceEn": "QZWAN SHISHA",
+   "sourceAr": "قزوان",
+   "sourcePrice": "8000 (assumed — see review)",
+   "price": 8000
+  },
+  {
+   "id": "blueberry-shisha",
+   "category": "shisha",
+   "page": 4,
+   "sourceEn": "BLUEBERRY SHISHA",
+   "sourceAr": "بلوبيري",
+   "sourcePrice": "8000 (assumed — see review)",
+   "price": 8000
+  },
+  {
+   "id": "sindi-shisha",
+   "category": "shisha",
+   "page": 4,
+   "sourceEn": "SINDI SHISHA",
+   "sourceAr": "سندي",
+   "sourcePrice": "8000 (assumed — see review)",
+   "price": 8000
+  },
+  {
+   "id": "gum-watermelon-shisha",
+   "category": "shisha",
+   "page": 4,
+   "sourceEn": "GUM & WATERMELON SHISHA",
+   "sourceAr": "علج بطيخ",
+   "sourcePrice": "8000 (assumed — see review)",
+   "price": 8000
+  },
+  {
+   "id": "fresh-shisha",
+   "category": "shisha",
+   "page": 4,
+   "sourceEn": "FRESH SHISHA",
+   "sourceAr": "طبيعي",
+   "sourcePrice": "10.000",
+   "price": 10000
+  }
+ ],
+ "sourcePriceValuesInPdf": {
+  "shisha": 10,
+  "note": "Every other section has exactly as many price values as rows. Shisha has 12 rows but only 10 price values (nine × 8000 and one 10.000)."
+ }
+}
