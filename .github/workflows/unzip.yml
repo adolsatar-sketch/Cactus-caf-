@@ -1,0 +1,34 @@
+name: Extract Cactus Menu
+
+on:
+  push:
+    branches:
+      - main
+
+permissions:
+  contents: write
+
+jobs:
+  extract:
+    if: github.actor != 'github-actions[bot]'
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Download repository
+        uses: actions/checkout@v4
+
+      - name: Extract ZIP
+        run: |
+          temp_dir="$(mktemp -d)"
+          unzip -q cactus-cafe-menu.zip -d "$temp_dir"
+          project_root="$(find "$temp_dir" -type f -name package.json -printf '%h\n' | head -n 1)"
+          cp -a "$project_root"/. .
+          rm cactus-cafe-menu.zip
+
+      - name: Save extracted files
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add -A
+          git commit -m "Extract Cactus Cafe menu"
+          git push
