@@ -30,7 +30,8 @@ initPerfFlags();
 const route = parseRoute(location.pathname, categoryIds, location.hash);
 const saved = store.get(KEYS.lang);
 const initial = route.lang ?? (isLang(saved) ? saved : null);
-const needIntro = initial === null;
+// The language screen must always appear on load/refresh, even with a saved language or a /ar, /ku, /en URL.
+const needIntro = true;
 
 createRoot(document.getElementById("root")!).render(
   <StrictMode>
