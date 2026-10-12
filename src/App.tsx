@@ -1,5 +1,6 @@
 import { useCallback, useDeferredValue, useEffect, useMemo, useRef, useState } from "react";
 import { BackToTop } from "./components/BackToTop";
+import { Cart } from "./components/Cart";
 import { CategorySection } from "./components/CategorySection";
 import { Curtain } from "./components/Curtain";
 import { EmptyIcon } from "./components/Icons";
@@ -136,6 +137,7 @@ export default function App({ needIntro, initialCategory }: { needIntro: boolean
         <Footer />
       </div>
       <BackToTop />
+      <Cart />
       <Toast />
       <Curtain />
       {overlay === "intro" && <Intro onChoose={onChoose} onReveal={reveal} onDone={done} />}

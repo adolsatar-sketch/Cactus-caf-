@@ -91,6 +91,25 @@ export const UI = {
   scrollPrev: { ar: "الأقسام السابقة", ku: "بەشەکانی پێشوو", en: "Previous categories" },
   scrollNext: { ar: "الأقسام التالية", ku: "بەشەکانی دواتر", en: "Next categories" },
   home: { ar: "الصفحة الرئيسية", ku: "پەڕەی سەرەکی", en: "Home" },
+  cart: { ar: "السلة", ku: "سەبەتە", en: "Cart" },
+  cartLabel: { ar: "عرض السلة", ku: "پیشاندانی سەبەتە", en: "View cart" },
+  addToCart: { ar: "أضف إلى السلة", ku: "زیادکردن بۆ سەبەتە", en: "Add to cart" },
+  increaseQty: { ar: "زيادة الكمية", ku: "زیادکردنی بڕ", en: "Increase quantity" },
+  decreaseQty: { ar: "إنقاص الكمية", ku: "کەمکردنەوەی بڕ", en: "Decrease quantity" },
+  removeFromCart: { ar: "إزالة من السلة", ku: "لابردن لە سەبەتە", en: "Remove from cart" },
+  clearCart: { ar: "تفريغ السلة", ku: "بەتاڵکردنەوەی سەبەتە", en: "Clear cart" },
+  closeCart: { ar: "إغلاق السلة", ku: "داخستنی سەبەتە", en: "Close cart" },
+  cartEmpty: {
+    ar: "السلة فارغة. اختر ما يعجبك من القائمة.",
+    ku: "سەبەتە بەتاڵە. ئەوەی پێت خۆشە لە لیستەکە هەڵبژێرە.",
+    en: "Your cart is empty. Pick what you like from the menu.",
+  },
+  cartHint: {
+    ar: "هذه قائمتك الشخصية لتتذكر ما اخترته — أخبر النادل بها عند الطلب.",
+    ku: "ئەمە لیستی کەسی خۆتە بۆ بیرخستنەوەی ئەوەی هەڵتبژاردووە — کاتی داواکردن بە گارسۆن بڵێ.",
+    en: "This is your personal pick-list to remember what you chose — tell your server when you order.",
+  },
+  cartTotal: { ar: "الإجمالي", ku: "کۆی گشتی", en: "Total" },
   /** Names of the allergen tags (shown only when an item lists any). */
   allergen: {
     gluten: { ar: "غلوتين", ku: "گلووتین", en: "Gluten" },

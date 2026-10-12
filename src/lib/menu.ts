@@ -8,3 +8,5 @@ export const categoryIds: string[] = categories.map((c) => c.id);
 export const itemsByCategory: Record<string, MenuItem[]> = {};
 for (const c of categories) itemsByCategory[c.id] = [];
 for (const i of menu.items) itemsByCategory[i.category]?.push(i);
+
+export const itemsById: Record<string, MenuItem> = Object.fromEntries(menu.items.map((i) => [i.id, i]));
