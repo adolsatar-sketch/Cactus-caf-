@@ -40,6 +40,11 @@ export function TopBar({ cats, query, setQuery, onGo, onActive, resultsLabel, se
       document.documentElement.style.setProperty("--bar-h", `${el.offsetHeight - (row?.offsetHeight ?? 0)}px`);
     };
     set();
+    if (typeof ResizeObserver === "undefined") {
+      // Older Safari (pre-iOS 13.4) has no ResizeObserver — fall back to a resize listener.
+      window.addEventListener("resize", set);
+      return () => window.removeEventListener("resize", set);
+    }
     const ro = new ResizeObserver(set);
     ro.observe(el);
     return () => ro.disconnect();
