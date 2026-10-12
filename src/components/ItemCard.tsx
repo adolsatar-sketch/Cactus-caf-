@@ -1,6 +1,8 @@
 import { memo, useState } from "react";
+import { MinusIcon, PlusIcon } from "./Icons";
 import type { Lang, MenuItem } from "../data/types";
 import { UI } from "../data/ui";
+import { useCart } from "../cart";
 import { htmlLangOf } from "../i18n";
 import { formatPrice } from "../lib/format";
 import { itemImage } from "../lib/images";
@@ -14,6 +16,8 @@ interface Props {
 
 export const ItemCard = memo(function ItemCard({ item, lang, secLang, hidden }: Props) {
   const [loaded, setLoaded] = useState(false);
+  const { qty, inc, dec } = useCart();
+  const n = qty(item.id);
   const img = itemImage(item);
   const name = item.name[lang];
   const desc = item.description?.[lang];
@@ -49,6 +53,23 @@ export const ItemCard = memo(function ItemCard({ item, lang, secLang, hidden }: 
       <div className="item__price">
         <b>{formatPrice(item.price)}</b>
         <small>{UI.price[lang]}</small>
+        {item.available && (
+          n > 0 ? (
+            <div className="item__cart-step">
+              <button type="button" aria-label={`${UI.decreaseQty[lang]}: ${name}`} onClick={() => dec(item.id)}>
+                <MinusIcon />
+              </button>
+              <b>{n}</b>
+              <button type="button" aria-label={`${UI.increaseQty[lang]}: ${name}`} onClick={() => inc(item.id)}>
+                <PlusIcon />
+              </button>
+            </div>
+          ) : (
+            <button type="button" className="item__cart-add" aria-label={`${UI.addToCart[lang]}: ${name}`} onClick={() => inc(item.id)}>
+              <PlusIcon />
+            </button>
+          )
+        )}
       </div>
     </article>
   );

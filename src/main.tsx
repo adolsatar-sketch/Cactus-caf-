@@ -15,6 +15,7 @@ import "./styles/hero.css";
 import "./styles/menu.css";
 import "./styles/fx.css";
 import App from "./App";
+import { CartProvider } from "./cart";
 import { I18nProvider } from "./i18n";
 import { registerBluestar } from "./lib/fonts";
 import { categoryIds } from "./lib/menu";
@@ -35,9 +36,11 @@ const needIntro = true;
 
 createRoot(document.getElementById("root")!).render(
   <StrictMode>
-    <I18nProvider initial={initial ?? "en"}>
-      <App needIntro={needIntro} initialCategory={route.category} />
-    </I18nProvider>
+    <CartProvider>
+      <I18nProvider initial={initial ?? "en"}>
+        <App needIntro={needIntro} initialCategory={route.category} />
+      </I18nProvider>
+    </CartProvider>
   </StrictMode>,
 );
 

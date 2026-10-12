@@ -19,4 +19,5 @@ export const store = {
 export const KEYS = {
   lang: "cactus.lang",
   secondary: "cactus.secondary",
+  cart: "cactus.cart",
 } as const;
